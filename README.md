@@ -15,23 +15,23 @@ This training course is design to teach our partners in the NSF eelgrass drone m
 9.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification. 
 Course outline:
 ###	Introduction to flying drone
-o	20 minutes lecture to drone and basic manipulation.
-o	Read the “Phantom 4 user manual” in the course material and setup the drone.
-o	1.5-hour practice fly with the help of TA, get familiar with drone manipulating, fly around and taking picture/video using the drone.
-•	Advance drone flying
-o	Read the “CSGIS_Preflight_Planning_Document” in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
-o	2-hour practice flying via auto-pilot with the help of TA, collecting images for mapping, and transfer all images from drone to computer.
+*	20 minutes lecture to drone and basic manipulation.
+*	Read the “Phantom 4 user manual” in the course material and setup the drone.
+*	1.5-hour practice fly with the help of TA, get familiar with drone manipulating, fly around and taking picture/video using the drone.
+###	Advance drone flying
+*	Read the “CSGIS_Preflight_Planning_Document” in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
+*	2-hour practice flying via auto-pilot with the help of TA, collecting images for mapping, and transfer all images from drone to computer.
 ###	Processing the drone imagery to mapping products
-o	Learn the “CSGIS_Drone2map User Guide”.
-o	1-hour lab session for drone2Map data processing.
+*	Learn the “CSGIS_Drone2map User Guide”.
+*	1-hour lab session for drone2Map data processing.
 Note: Drone2Map software package could be downloaded from course material resources folder. Sample data are provided in course folder.
 ###Drone imagery and eelgrass mapping principles
-o	40 minutes lecture for drone eelgrass mapping principles. 
-o	30 minutes discussion followed by the lecture to discuss eelgrass drone mapping. 
+*	40 minutes lecture for drone eelgrass mapping principles. 
+*	30 minutes discussion followed by the lecture to discuss eelgrass drone mapping. 
 ### Data analysis in Geographical Information Science (GIS)
-o	Learn the “CSGIS_ ArcGIS based Image Analyses Manual”
-o	1-hour lab session for GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification.
+*	Learn the “CSGIS_ ArcGIS based Image Analyses Manual”
+*	1-hour lab session for GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification.
 Note: ArcMap software package could be downloaded from course material resources folder. Sample data are provided in course folder.
-•	Self-study for FAA part 107 exam
-o	10-hours study for “CSGIS_Instruction for FAA Part 107 Examination” as well as “remote_pilot_study_guide” for taking the exam. There are also lots of resources online.
+###	Self-study for FAA part 107 exam
+*	10-hours study for “CSGIS_Instruction for FAA Part 107 Examination” as well as “remote_pilot_study_guide” for taking the exam. There are also lots of resources online.
 
