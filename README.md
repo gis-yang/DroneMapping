@@ -18,20 +18,26 @@ Course outline:
 *	20 minutes lecture to drone and basic manipulation.
 *	Read the “Phantom 4 user manual” in the course material and setup the drone.
 *	1.5-hour practice fly with the help of TA, get familiar with drone manipulating, fly around and taking picture/video using the drone.
-###	[Advance drone flying](/Documents/CSGIS_Preflight_Planning_Document.pdf)
+
+### [Advance drone flying](/Documents/CSGIS_Preflight_Planning_Document.pdf)
 *	Read the “CSGIS_Preflight_Planning_Document” in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
 *	2-hour practice flying via auto-pilot with the help of TA, collecting images for mapping, and transfer all images from drone to computer.
-###	[Processing the drone imagery to mapping products](/Documents/CSGIS_Drone2map User Guide.pdf)
+
+### [Processing the drone imagery to mapping products](/Documents/CSGIS_Drone2map_User_Guide.pdf)
+
 *	Learn the “CSGIS_Drone2map User Guide”.
 *	1-hour lab session for drone2Map data processing.
 Note: Drone2Map software package could be downloaded from course material resources folder. Sample data are provided in course folder.
-### [Drone imagery and eelgrass mapping principles(/Slides/UAV_Traning_Slides_Yang.pptx)
+
+### [Drone imagery and eelgrass mapping principles](/Slides/UAV_Traning_Slides_Yang.pptx)
 *	40 minutes lecture for drone eelgrass mapping principles. 
 *	30 minutes discussion followed by the lecture to discuss eelgrass drone mapping. 
-### [Data analysis in Geographical Information Science (GIS)](/Slides/CSGIS_ ArcGIS based Image Analyses Manual.pdf)
+
+### [Data analysis in Geographical Information Science (GIS)](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
 *	Learn the “CSGIS_ ArcGIS based Image Analyses Manual”
 *	1-hour lab session for GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification.
 Note: ArcMap software package could be downloaded from course material resources folder. Sample data are provided in course folder.
-###	[Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction for FAA Part 107 Examination.pdf)
+
+###	[Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
 *	10-hours study for “CSGIS_Instruction for FAA Part 107 Examination” as well as “remote_pilot_study_guide” for taking the exam. There are also lots of resources online.
 
