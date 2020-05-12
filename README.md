@@ -14,7 +14,7 @@ This training course is design to teach our partners in the NSF eelgrass drone m
 8.	Data management and cloud storage of drone imagery
 9.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification. 
 Course outline:
-###	Introduction to flying drone
+###	[Introduction to flying drone](/Documents/CSGIS_Preflight_Planning_and_Safety.pdf)
 *	20 minutes lecture to drone and basic manipulation.
 *	Read the “Phantom 4 user manual” in the course material and setup the drone.
 *	1.5-hour practice fly with the help of TA, get familiar with drone manipulating, fly around and taking picture/video using the drone.
