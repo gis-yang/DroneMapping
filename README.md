@@ -41,3 +41,11 @@ Note: ArcMap software package could be downloaded from course material resources
 ###	[Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
 *	10-hours study for “CSGIS_Instruction for FAA Part 107 Examination” as well as “remote_pilot_study_guide” for taking the exam. There are also lots of resources online.
 
+### Other resource:
+
+* [Drone mapping for WA eelgrass sites](http://www.citizensciencegis.org/nsf-eelgrass-project-ucf-drone-team-finished-coastal-mapping-with-team-from-uw-and-cornell/) 
+* [Drone mapping for OR eelgrass sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-eelgrass-mapping-with-team-from-oregon-state-and-cornell/)
+* [Drone mapping for Bodega Bay eelgrass sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-eelgrass-research-alongside-uc-davis/)
+* [Drone mapping for San Diego sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-the-mapping-in-southern-california-with-sdsu/)
+* [Drone mapping for Alaska sites](http://www.citizensciencegis.org/citizen-science-gis-completes-drone-work-in-alaska-the-last-frontier/)
+
