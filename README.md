@@ -43,9 +43,9 @@ Note: ArcMap software package could be downloaded from course material resources
 
 ### Other resource:
 
-* [Drone mapping for WA eelgrass sites](http://www.citizensciencegis.org/nsf-eelgrass-project-ucf-drone-team-finished-coastal-mapping-with-team-from-uw-and-cornell/) 
-* [Drone mapping for OR eelgrass sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-eelgrass-mapping-with-team-from-oregon-state-and-cornell/)
-* [Drone mapping for Bodega Bay eelgrass sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-eelgrass-research-alongside-uc-davis/)
-* [Drone mapping for San Diego sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-the-mapping-in-southern-california-with-sdsu/)
-* [Drone mapping for Alaska sites](http://www.citizensciencegis.org/citizen-science-gis-completes-drone-work-in-alaska-the-last-frontier/)
+* [Citizen Science GIS Drone mapping for WA eelgrass sites](http://www.citizensciencegis.org/nsf-eelgrass-project-ucf-drone-team-finished-coastal-mapping-with-team-from-uw-and-cornell/) 
+* [Citizen Science GIS Drone mapping for OR eelgrass sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-eelgrass-mapping-with-team-from-oregon-state-and-cornell/)
+* [Citizen Science GIS Drone mapping for Bodega Bay eelgrass sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-eelgrass-research-alongside-uc-davis/)
+* [Citizen Science GIS Drone mapping for San Diego sites](http://www.citizensciencegis.org/ucf-drone-team-finishes-the-mapping-in-southern-california-with-sdsu/)
+* [Citizen Science GIS Drone mapping for Alaska sites](http://www.citizensciencegis.org/citizen-science-gis-completes-drone-work-in-alaska-the-last-frontier/)
 
