@@ -1,5 +1,5 @@
 # Drone Mapping Training Course for Coastal Management and Seagrass Conservation 
-### [Citizen Science GIS](www.citizensciencegis.org), University of Central Florida
+### [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
 ## Course description
 This training course is design to teach our partners in the NSF eelgrass drone mapping project. The UCF portion of the project uses Unmanned Aerial Systems (UAS), i.e. drones, to measure eelgrass meadow extent, patchiness, and dynamics through time. Drone imagery will be collected at least annually in coordination with in situ sampling which will also be used to validate the imagery by ground-truthing across a range of points within each meadow. We create this training course for our eelgrass mapping friends to learn how to fly drone for collecting data, and perform the data analysis in Geographical Information Science (GIS) method. This training course contains topics of flying DJI drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and ArcGIS based drone image analyses.
 
