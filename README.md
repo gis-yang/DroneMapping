@@ -3,46 +3,46 @@
 * [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
 
 # 1. Drone Basics
-### Quadcopter Drone Assemble
-### Software Setup
-### Safety Guides
+## Quadcopter Drone Assemble
+## Software Setup
+## Safety Guides
 # 2. In-Flight Operation
 
-## 2.1. Drone Manipulation
+## Drone Manipulation
 
-## 2.2. Review of Air Space Regulation
+## Air Space Regulation
 
 # 3. Autonomous Mapping
 
-### 3.1. Autonomous Flight Planning
+### Autonomous Flight Planning
 
-### 3.2. Auto-fly Parameter Setting
+## Auto-fly Parameter Setting
 
-### 3.3. Geographical Fieldwork
+## Geographical Fieldwork
 
-# 4. Drone Image Processing
+# 4. Image Processing
 
-## 4.1. Drone Image stitching
+## Drone Image stitching
 
-## 4.2. Geo-referencing
+## Geo-referencing
 
-## 4.3. Orthomosaic & Elevation Data
+## Orthomosaic & Elevation Data
 
-## 4.4. Image Correction
+## Image Correction
 
 # 5. GIS analysis
 
-## 5.1. Digitizing
+## Digitizing
 
-## 5.2. Image segmentation & Classification
+## Image segmentation & Classification
 
-## 5.3. Bandmath & Algorithms
+## Bandmath & Algorithms
 
 # 6. Post-training Self-study
 
-## 6.1. Self-study for FAA UAS Exam
+## Self-study for FAA UAS Exam
 
-## 6.2. Data Processing Protocol 
+## Data Processing Protocol 
 
 
 
