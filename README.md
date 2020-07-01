@@ -18,8 +18,6 @@
 
 ### Auto-fly Parameter Setting
 
-### Geographical Fieldwork
-
 # 4. Image Processing
 
 ### Drone Image stitching
@@ -28,17 +26,7 @@
 
 ### Orthomosaic & Elevation Data
 
-### Image Correction
-
-# 5. GIS analysis
-
-### Digitizing
-
-### Image segmentation & Classification
-
-### Bandmath & Algorithms
-
-# 6. Post-training Self-study
+# 5. Post-training Self-study
 
 ### Self-study for FAA UAS Exam
 
