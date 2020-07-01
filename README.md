@@ -2,7 +2,7 @@
  
 * [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
 
-# 2. Open-access Drone Mapping Course2
+## 2. Open-access Drone Mapping Course2
 
 
 ## Course description
