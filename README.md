@@ -4,7 +4,7 @@
 
 # 1. Drone Basics
 ## Quadcopter Drone Assemble
-## Sofeware Setup
+## Software Setup
 ## Safety Guides
 # 2. In-Flight Operation
 
