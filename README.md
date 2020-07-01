@@ -3,9 +3,9 @@
 * [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
 
 # 1. Drone Basics
-## Quadcopter Drone Assemble
-## Software Setup
-## Safety Guides
+### Quadcopter Drone Assemble
+### Software Setup
+### Safety Guides
 # 2. In-Flight Operation
 
 ## Drone Manipulation
