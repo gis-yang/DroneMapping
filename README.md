@@ -8,41 +8,41 @@
 ### Safety Guides
 # 2. In-Flight Operation
 
-## Drone Manipulation
+### Drone Manipulation
 
-## Air Space Regulation
+### Air Space Regulation
 
 # 3. Autonomous Mapping
 
 ### Autonomous Flight Planning
 
-## Auto-fly Parameter Setting
+### Auto-fly Parameter Setting
 
-## Geographical Fieldwork
+### Geographical Fieldwork
 
 # 4. Image Processing
 
-## Drone Image stitching
+### Drone Image stitching
 
-## Geo-referencing
+### Geo-referencing
 
-## Orthomosaic & Elevation Data
+### Orthomosaic & Elevation Data
 
-## Image Correction
+### Image Correction
 
 # 5. GIS analysis
 
-## Digitizing
+### Digitizing
 
-## Image segmentation & Classification
+### Image segmentation & Classification
 
-## Bandmath & Algorithms
+### Bandmath & Algorithms
 
 # 6. Post-training Self-study
 
-## Self-study for FAA UAS Exam
+### Self-study for FAA UAS Exam
 
-## Data Processing Protocol 
+### Data Processing Protocol 
 
 
 
