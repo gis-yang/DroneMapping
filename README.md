@@ -1,7 +1,5 @@
 **Open-access Drone Course**
- 
 * [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
-
 # 1. Drone Basics
 ### Quadcopter Drone Assemble
 ### Software Setup
