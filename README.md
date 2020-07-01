@@ -3,13 +3,9 @@
 * [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
 
 # 1. Drone Basics
-
-## 1.1. Quadcopter Drone Assemble
-
-## 1.2. Sofeware Setup
-
-## 1.3. Safety Guides
-
+## Quadcopter Drone Assemble
+## Sofeware Setup
+## Safety Guides
 # 2. In-Flight Operation
 
 ## 2.1. Drone Manipulation
