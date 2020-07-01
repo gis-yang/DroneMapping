@@ -1,8 +1,54 @@
-# 1. Open-access Drone Mapping Course
+# Open-access Drone Mapping Course
  
 * [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
 
-## 2. Open-access Drone Mapping Course2
+# 1. Drone Basics
+
+## 1.1. Quadcopter Drone Assemble
+
+## 1.2. Sofeware Setup
+
+## 1.3. Safety Guides
+
+# 2. In-Flight Operation
+
+## 2.1. Drone Manipulation
+
+## 2.2. Review of Air Space Regulation
+
+# 3. Autonomous Mapping
+
+## 3.1. Autonomous Flight Planning
+
+## 3.2. Auto-fly Parameter Setting
+
+## 3.3. Geographical Fieldwork
+
+# 4. Drone Image Processing
+
+## 4.1. Drone Image stitching
+
+## 4.2. Geo-referencing
+
+## 4.3. Orthomosaic & Elevation Data
+
+## 4.4. Image Correction
+
+# 5. GIS analysis
+
+## 5.1. Digitizing
+
+## 5.2. Image segmentation & Classification
+
+## 5.3. Bandmath & Algorithms
+
+# 6. Post-training Self-study
+
+## 6.1. Self-study for FAA UAS Exam
+
+## 6.2. Data Processing Protocol 
+
+
 
 
 ## Course description
