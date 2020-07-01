@@ -1,4 +1,4 @@
-# Open-access Drone Mapping and GIS Course
+# Open-access Drone Mapping Course
  
 * [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
 ## Course description
