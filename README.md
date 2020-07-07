@@ -26,22 +26,46 @@ This open-access drone mapping training course is designed to be use in the NSF 
 *	Read the “Phantom 4 user manual” in the course material and setup the drone.
 *	1.5-hour practice fly with the help of TA, get familiar with drone manipulating, fly around and taking picture/video using the drone.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4PYAk11Jio8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Open training course for drone mapping: (1/5) Drone unboxing and assemble
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EFAxI218N7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Open training course for drone mapping: (2/5) How to setup the software for DJI Phantom 4
+
 # 2. In-Flight Operation
-We review the legal requirements when flying drones, including federal regulations which govern the safe use of drones in participant’s study regions (e.g., FAA part 107 in the USA, Canadian Aviation Regulations (CARs). Part IX – Remotely Piloted Aircraft Systems in Canada. Safety rules for flying drones are included in a written guide. We stress that before flights, the remote pilot needs to check gloves, eye protection, safety vests, radio, and life jacket if taking off from a boat. During the flights, we stress that the UAV needs to remain within visual line of sight of the remote pilot. The flight is not permitted directly over non-participating people.   it is possible to obtain a basic or advanced drone pilot license which differs in operational regulations and training required. Because coastal mapping with drones often includes taking off and landing on a boat, additional procedures and safety concerns were discussed. For example, hand catching of the drone on a boat was demonstrated and practiced for both takeoff and landing.  
+* Before flights, the remote pilot needs to check gloves, eye protection, safety vests, radio, and life jacket if taking off from a boat. 
+* During the flights, wthe UAV needs to remain within visual line of sight of the remote pilot.
+* The flight is not permitted directly over non-participating people.   
+* Because coastal mapping with drones often includes taking off and landing on a boat, additional procedures and safety concerns were discussed. 
+
 ### Drone Manipulation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jpWw9_WZGHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Open training course for drone mapping: (3/5) Calibrate the drone and setup the software
 
 ### Air Space Regulation
 In the U.S., all drones are required to be registered with the FAA if they weigh more than 0.55 lbs (250 grams) and less than 55 lbs (25 kg). When operating a drone, a Remote Pilot-in-Command cannot fly an UAV higher than 400 feet above ground level (AGL), unless it’s flown within a 400-foot radius of a structure and does not fly higher than 400 feet above the structure’s immediate uppermost limit. The minimum distance of the UAS from clouds must be no less than 500 feet below the cloud and 2,000 feet horizontally from the cloud. In Canada, a drone pilot certificate must be acquired in order to conduct basic operations (ie. Flights < 120 m ASL, maintain distance from bystanders (30 m),
+
 # 3. Autonomous Mapping
 
  [Advance drone flying](/Documents/CSGIS_Preflight_Planning_Document.pdf)
 *	Read the “CSGIS_Preflight_Planning_Document” in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
 *	2-hour practice flying via auto-pilot with the help of TA, collecting images for mapping, and transfer all images from drone to computer.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n2iIS3-4z-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Open training course for drone mapping: (4/5) Create drone mapping task using DJI GS Pro
+
 ### Mapping planning & settings
 
 Participants learned how to plan and create a new flight area using autonomous flights with different mapping parameters. Training covered: a) tradeoffs between spatial coverage and spatial resolution (e.g. if drones fly at a higher elevation, the image coverage is larger, but the spatial resolution is coarser and vice versa); b) appropriate settings of the camera model for a proper shooting angle to minimize sun glint; c) how flight direction and capture mode varies depending on the shape of the site and the wind directions; and d) how front/side overlap ratio is highly correlated with flying time and the number of batteries needed. The values to be used for addressing those factors are included in Table 1.  
 ![image](/Files/Table1.png) 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Op4rjLfgmpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS Pro for autonomous mapping
 
 # 4. Image Processing
 
