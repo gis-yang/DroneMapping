@@ -69,7 +69,7 @@ Note: ArcMap software package could be downloaded from course material resources
 
 ### Self-study for FAA UAS Exam
 
-	[Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
+[Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
 *	10-hours study for “CSGIS_Instruction for FAA Part 107 Examination” as well as “remote_pilot_study_guide” for taking the exam. There are also lots of resources online.
 
 
