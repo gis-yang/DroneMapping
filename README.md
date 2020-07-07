@@ -38,7 +38,7 @@ In the U.S., all drones are required to be registered with the FAA if they weigh
 *	Read the “CSGIS_Preflight_Planning_Document” in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
 *	2-hour practice flying via auto-pilot with the help of TA, collecting images for mapping, and transfer all images from drone to computer.
 
-### Mapping Planning & Parameter setting
+### Mapping planning & settings
 
 Participants learned how to plan and create a new flight area using autonomous flights with different mapping parameters. Training covered: a) tradeoffs between spatial coverage and spatial resolution (e.g. if drones fly at a higher elevation, the image coverage is larger, but the spatial resolution is coarser and vice versa); b) appropriate settings of the camera model for a proper shooting angle to minimize sun glint; c) how flight direction and capture mode varies depending on the shape of the site and the wind directions; and d) how front/side overlap ratio is highly correlated with flying time and the number of batteries needed. The values to be used for addressing those factors are included in Table 1.   
 
