@@ -6,7 +6,7 @@ Maintained by Bo Yang
 
 **Course description**
 
-This open access drone mapping training course is design to be use in the NSF eelgrass drone mapping project. How to uses Unmanned Aerial Systems (UAS), i.e. drones, to do the mapping.  We create this training course for our eelgrass mapping friends to learn how to fly drone for collecting data, and perform the data analysis in Geographical Information Science (GIS) method. This training course contains topics of flying DJI drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and ArcGIS based drone image analyses.
+This open-access drone mapping training course is designed to be use in the NSF eelgrass drone mapping project. How to use Unmanned Aerial Systems (UAS), i.e. drones, to collect remote sensing data. We create this training course for research partners and communities to learn how to fly drone , and perform the data processing in Geographical Information Science (GIS) method. This training course contains topics of flying DJI drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and ArcGIS based drone image analyses.
 
 
  **Course Objectives**
