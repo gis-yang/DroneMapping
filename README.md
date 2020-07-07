@@ -63,7 +63,7 @@ For points on land, we used obvious objects, such as red buckets that could be e
 *	1-hour lab session for GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification.
 Note: ArcMap software package could be downloaded from course material resources folder. Sample data are provided in course folder.
 
-<iframe width="420" height="315" src="https://youtu.be/yaX336s4DjE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yaX336s4DjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 5. Post-training Self-study
 
