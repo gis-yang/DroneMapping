@@ -66,7 +66,7 @@ Note: ArcMap software package could be downloaded from course material resources
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yaX336s4DjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</cite> UAV/dronehigh-resolution 3D fly-through video for Bodega Marine Laboratory (BML)</cite>
+</cite>UAV/dronehigh-resolution 3D fly-through video for Bodega Marine Laboratory (BML)</cite>
 
 # 5. Post-training Self-study
 
