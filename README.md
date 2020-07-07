@@ -64,7 +64,11 @@ Open training course for drone mapping: (4/5) Create drone mapping task using DJ
 
 ### Mapping planning & settings
 
-Participants learned how to plan and create a new flight area using autonomous flights with different mapping parameters. Training covered: a) tradeoffs between spatial coverage and spatial resolution (e.g. if drones fly at a higher elevation, the image coverage is larger, but the spatial resolution is coarser and vice versa); b) appropriate settings of the camera model for a proper shooting angle to minimize sun glint; c) how flight direction and capture mode varies depending on the shape of the site and the wind directions; and d) how front/side overlap ratio is highly correlated with flying time and the number of batteries needed. The values to be used for addressing those factors are included in Table 1.  
+Participants learned how to plan and create a new flight area using autonomous flights with different mapping parameters. Training covered: 
+* tradeoffs between spatial coverage and spatial resolution (e.g. if drones fly at a higher elevation, the image coverage is larger, but the spatial resolution is coarser and vice versa); 
+* appropriate settings of the camera model for a proper shooting angle to minimize sun glint; 
+* how flight direction and capture mode varies depending on the shape of the site and the wind directions; 
+* how front/side overlap ratio is highly correlated with flying time and the number of batteries needed. The values to be used for addressing those factors are included in Table 1.  
 ![image](/Files/Table1.png) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Op4rjLfgmpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -83,7 +87,8 @@ Note: Drone2Map software package could be downloaded from course material resour
 
 ### Geo-referencing
 
-For points on land, we used obvious objects, such as red buckets that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP) (Figure 5). Using a Garmin R1 GNSS high-performance handheld GPS, we collected about 10 points for each of the sites. The coordinates of the GCPs are included in the mapping software to geo-register the images. By associating features on the scanned image with real-world x and y coordinates, the software can progressively warp the image so it fits other spatial datasets. 
+For points on land, we used obvious objects, such as red buckets that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP). Using a Garmin R1 GNSS high-performance handheld GPS, we collected about 10 points for each of the sites. The coordinates of the GCPs are included in the mapping software to geo-register the images. By associating features on the scanned image with real-world x and y coordinates, the software can progressively warp the image so it fits other spatial datasets. 
+
 
 ### Orthomosaic & Elevation Data
 
