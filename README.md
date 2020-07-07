@@ -47,7 +47,11 @@ Open training course for drone mapping: (2/5) How to setup the software for DJI 
 Open training course for drone mapping: (3/5) Calibrate the drone and setup the software
 
 ### Air Space Regulation
-In the U.S., all drones are required to be registered with the FAA if they weigh more than 0.55 lbs (250 grams) and less than 55 lbs (25 kg). When operating a drone, a Remote Pilot-in-Command cannot fly an UAV higher than 400 feet above ground level (AGL), unless it’s flown within a 400-foot radius of a structure and does not fly higher than 400 feet above the structure’s immediate uppermost limit. The minimum distance of the UAS from clouds must be no less than 500 feet below the cloud and 2,000 feet horizontally from the cloud. In Canada, a drone pilot certificate must be acquired in order to conduct basic operations (ie. Flights < 120 m ASL, maintain distance from bystanders (30 m),
+* all drones are required to be registered with the FAA if they weigh more than 0.55 lbs (250 grams) and less than 55 lbs (25 kg). 
+* When operating a drone, a Remote Pilot-in-Command cannot fly an UAV higher than 400 feet above ground level (AGL), unless it’s flown within a 400-foot radius of a structure and does not fly higher than 400 feet above the structure’s immediate uppermost limit. 
+* The minimum distance of the UAS from clouds must be no less than 500 feet below the cloud and 2,000 feet horizontally from the cloud. 
+
+For more FAA regulation, please read [FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
 
 # 3. Autonomous Mapping
 
