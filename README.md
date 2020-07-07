@@ -1,14 +1,16 @@
-# Open-access Drone Course
+# Open-access Drone Mapping Course
 
 [Citizen Science GIS](http://www.citizensciencegis.org), University of Central Florida
 
-Maintain by Bo Yang
+Maintained by Bo Yang
 
 **Course description**
+
 This open access drone mapping training course is design to be use in the NSF eelgrass drone mapping project. How to uses Unmanned Aerial Systems (UAS), i.e. drones, to do the mapping.  We create this training course for our eelgrass mapping friends to learn how to fly drone for collecting data, and perform the data analysis in Geographical Information Science (GIS) method. This training course contains topics of flying DJI drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and ArcGIS based drone image analyses.
 
 
  **Course Objectives**
+ 
 1.	Basic knowledge of Drone, setup and maintenance. 
 2.	Learn how to fly drone, manual manipulation and auto-pilot.
 3.	Learn FAA regulation, sectional chart, and how to take the part 107 exam.
@@ -53,6 +55,8 @@ In the U.S., all drones are required to be registered with the FAA if they weigh
 Note: Drone2Map software package could be downloaded from course material resources folder. Sample data are provided in course folder.
 
 ### Geo-referencing
+
+For points on land, we used obvious objects, such as red buckets that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP) (Figure 5). Using a Garmin R1 GNSS high-performance handheld GPS, we collected about 10 points for each of the sites. The coordinates of the GCPs are included in the mapping software to geo-register the images. By associating features on the scanned image with real-world x and y coordinates, the software can progressively warp the image so it fits other spatial datasets. 
 
 ### Orthomosaic & Elevation Data
 
