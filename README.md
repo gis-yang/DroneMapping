@@ -34,6 +34,32 @@ Open training course for drone mapping: (1/5) Drone unboxing and assemble
 
 Open training course for drone mapping: (2/5) How to setup the software for DJI Phantom 4
 
+### Register your drone
+
+In the event that the FAA needs to identify a drone in the United States, they will utilize your FAA registration number to seek information. It only takes about 10 minutes to register, and failure to do so can result in extreme repercussions from the FAA.
+ 
+“Failure to register with the FAA could result in one or a combination of the following: a civil penalty of up to $27,500; a criminal fine of up to $250,000; imprisonment for up to three years.” - FAA
+
+Directions for Registering Drone with FAA:
+1.	Go to https://faadronezone.faa.gov/#/
+2.	Click “Register” in the same row as “I fly under Part 107 or as a Public Aircraft.”
+3.	Enter information and click “Create Account.”
+4.	Verify your email address and log in
+5.	Make sure that you are in the “Part 107 Dashboard.”
+6.	Click “Manage sUAS Inventory.”
+7.	Click “Add UAS.”
+8.	Fill out the information
+9.	Enter your drone’s unique serial number, as found in the battery cavity of the drone: 
+10.	Go to “Shopping Cart” and click “Checkout.”
+11.	Follow prompts for payment
+12.	Navigate back to your “FAA Part 107 Dashboard” and click “Manage sUAS Inventory”
+13.	Find the drone that you registered and find the “Registration” column. 
+14.	Mark your drone with the registration number according to the following FAA Parameters:
+a.	The unique identifier must be maintained in a condition that is legible.
+b.	The unique identifier must be affixed to the small unmanned aircraft by any means necessary to ensure that it will remain affixed for the duration of each operation.
+c.	The unique identifier must be legibly displayed on an external surface of the small unmanned aircraft.
+
+
 # 2. In-Flight Operation
 * Before flights, the remote pilot needs to check gloves, eye protection, safety vests, radio, and life jacket if taking off from a boat. 
 * During the flights, wthe UAV needs to remain within visual line of sight of the remote pilot.
