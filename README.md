@@ -55,9 +55,9 @@ Directions for Registering Drone with FAA:
 12.	Navigate back to your “FAA Part 107 Dashboard” and click “Manage sUAS Inventory”
 13.	Find the drone that you registered and find the “Registration” column. 
 14.	Mark your drone with the registration number according to the following FAA Parameters:
-a.	The unique identifier must be maintained in a condition that is legible.
-b.	The unique identifier must be affixed to the small unmanned aircraft by any means necessary to ensure that it will remain affixed for the duration of each operation.
-c.	The unique identifier must be legibly displayed on an external surface of the small unmanned aircraft.
+	*	The unique identifier must be maintained in a condition that is legible.
+	*	The unique identifier must be affixed to the small unmanned aircraft by any means necessary to ensure that it will remain affixed for the duration of each operation.
+	*	The unique identifier must be legibly displayed on an external surface of the small unmanned aircraft.
 
 
 # 2. In-Flight Operation
@@ -111,7 +111,7 @@ Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS P
 *	1-hour lab session for drone2Map data processing.
 Note: Drone2Map software package could be downloaded from course material resources folder. Sample data are provided in course folder.
 
-### Geo-referencing
+**Geo-referencing**
 
 For points on land, we used obvious objects, such as red buckets that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP). Using a Garmin R1 GNSS high-performance handheld GPS, we collected about 10 points for each of the sites. The coordinates of the GCPs are included in the mapping software to geo-register the images. By associating features on the scanned image with real-world x and y coordinates, the software can progressively warp the image so it fits other spatial datasets. 
 
