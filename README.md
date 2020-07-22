@@ -15,7 +15,7 @@ This open-access drone mapping training course is designed to be use in the NSF 
 4.	Safety guidlines when flying drone. 
 5.	Learn to use DJI GS Pro for auto-pilot flying and collecting field data. 
 6.	In situ measurements guide, collecting field data and Ground Control Points (GCPs).
-7.	Use Esri Drone2Map to stitching and geo-referencing the drone imagery. 
+7.	Use Esri Drone2Map to stitching and geo-referencing the drone images. 
 8.	Data management and cloud storage of drone imagery
 9.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification. 
 
