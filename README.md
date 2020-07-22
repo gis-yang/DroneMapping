@@ -131,6 +131,10 @@ UAV/dronehigh-resolution 3D fly-through video for Bodega Marine Laboratory (BML)
 
 ### Self-study for FAA UAS Exam
 
+In order to fly drones under the FAA’s Small UAS Rule (Part 107) in the U.S.A., one must obtain a Remote Pilot Certificate from the FAA (FAA.gov). This certificate demonstrates that the remote pilot understands the regulations, operating requirements, and procedures for safely flying drones. 
+
+Below training document reviewed content from the course modules as well as additional material necessary to prepare for the drone examination, including airspace concepts, weather sources, radio communications, sectional charts, and drone physics. 
+
 [Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
 *	10-hours study for “CSGIS_Instruction for FAA Part 107 Examination” as well as “remote_pilot_study_guide” for taking the exam. There are also lots of resources online.
 
