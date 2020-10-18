@@ -1,6 +1,6 @@
 # Open-access Drone Mapping Course
 
-**Maintained by [Bo Yang](https://gis-yang.github.io/),[Citizen Science GIS](http://www.citizensciencegis.org)
+**Maintained by [Bo Yang](https://gis-yang.github.io/), [Citizen Science GIS](http://www.citizensciencegis.org)**
 
 **Course description**
 
