@@ -35,7 +35,7 @@ The first training module includes a tutorial to introduce basic manipulation, a
 
 *	Read the [Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf) to learn basic manipulation, assembly, setup software, and calibration of the quadcopter drone.
 *	Review the drone, its basic flight manipulation, rules and regulations for drone flights.
-*	Read through the [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf)l and participated in a hands-on tutorial setting up the drone and software environment for a flight. 	
+*	Read through the [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf) and participated in a hands-on tutorial setting up the drone and software environment for a flight. 	
 *	One-hour practice fly, get familiar with manual drone operations, including takeoff and landing, changing flight altitude, and adjusting drone camera/video settings
 
 
@@ -73,6 +73,13 @@ Directions for Registering Drone with FAA:
 
 ![image](/Files/FAARegistration.png)
 
+**Module Materials:**
+
+[Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf)
+
+[operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf)
+
+
 # 2. In-Flight Operation
 
 Following the overview of drone basics, there is a 1.5-hour manual flying session. Through this interactive exercise, participants gained experience in basic drone operations. 
@@ -97,6 +104,11 @@ Open training course for drone mapping: (3/5) Calibrate the drone and setup the 
 Note: There are similar regulations in Canada. All drones that weigh between 250 g and 25 kg must be registered with Transport Canada. FAA certification (U.S.) is not applicable in Canada, and drone pilots must follow the rules in the Canadian Aviation Regulations (CARs) Part IX—Remotely Piloted Aircraft Systems.
 
 For more FAA regulation, please read [FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
+
+**Module Materials:**
+
+[FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
+
 
 # 3. Autonomous Mapping
 
@@ -126,6 +138,10 @@ Participants learned how to plan and create a new flight area using autonomous f
 
 Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS Pro for autonomous mapping
 
+**Module Materials:**
+
+[CSGIS_Preflight_Planning_Document] (/Documents/CSGIS_Preflight_Planning_Document.pdf)
+
 # 4. Image Processing
 
 The general steps reviewed in this course included: image stitching, geo-referencing, derivation of orthomosaics and elevation models and image correction. Also, we will review the importance of visually inspecting all drone images to rule out low-quality images (e.g., blurry or oblique) and minimize measurement error in the final data products. This module will also cover the use of Esri Drone2Map software to stitch together hundreds of separate images collected by drones in the field and geo-register them into orthomosaics.
@@ -134,10 +150,8 @@ The general steps reviewed in this course included: image stitching, geo-referen
 
 ### Drone Image stitching and GIS analysis
 
- [Processing the drone imagery to mapping products](/Documents/CSGIS_Drone2map_User_Guide.pdf)
 
-*	Learn the “CSGIS_Drone2map User Guide”.
-*	1-hour lab session for drone2Map data processing.
+*	Learn the [CSGIS_Drone2map User Guide](/Documents/CSGIS_Drone2map_User_Guide.pdf).
 *	Findable, Accessible, Interoperable and Reusable (FAIR) science data principles.	(Wilkinson et al., 2016), 
 Note: Drone2Map software package could be downloaded from the course material resources folder. Sample data are provided in the course folder.
 
@@ -150,8 +164,8 @@ For points on land, we used obvious objects, such as red buckets that could be e
 
 ### Orthomosaic & Elevation Data
 
- [Data analysis in Geographical Information Science (GIS)](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
-*	Learn the “CSGIS_ ArcGIS based Image Analyses Manual”
+
+*	Learn the [ArcGIS based Image Analyses Manual](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
 *	GIS analysis includes: geodatabase management, digitizing raster imagery, pixel/object based classification methods, band math, and calculations of vegetation indexes (e.g., Green Leaf Index and NDVI). The canopy information, such as Leaf Area Index (LAI) can be derived from drone imagery as well (Roth et al 2018). 
 
 Note: ArcGIS and Drone2Map software packages could be downloaded from [Esri](https://www.esri.com/en-us/home).
@@ -162,11 +176,21 @@ UAV/drone high-resolution 3D fly-through video for Bodega Marine Laboratory (BML
 
 Furthermore, drone mapping can generate additional elevation data products, such as Digital TerrainModels (DTM) and Digital Surface Models (DSM). Such products are useful for topography analysis and 3D visualization. Above video shows the high-resolution orthomosaic imagery combined with the high-resolution Digital Elevation Model can be further processed to a 3D visualization.
 
+**Module Materials:**
+
+ [Processing the drone imagery to mapping products](/Documents/CSGIS_Drone2map_User_Guide.pdf)
+
+ [Data analysis in Geographical Information Science (GIS)](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
+
 # 5. Post-training Self-study
 
 ### Self-study for FAA UAS Exam
 
 10-hour self-paced study guide to assist partners with the Federal Aviation Administration (FAA) Part 107 examination. In order to fly drones for research purposes under the FAA’s Small UAS Rule (Part 107) in the U.S., one must obtain a Remote Pilot Certificate from the FAA. This certificate demonstrates that the remote pilot understands the regulations, operating requirements, and procedures for safely flying drones.
+
+**Module Materials:**
+
+[FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
 
 [Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
 
