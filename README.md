@@ -33,7 +33,7 @@ The training program is divided into 5 training sections and one post-training s
 
 The first training module includes a tutorial to introduce basic manipulation, assembly, setup software, and calibration of the quadcopter drone. The DJI Phantom 4 Pro were used as an example. The training contents includes a lecture-based review of the drone, its basic flight manipulation, rules and regulations for drone flights. Through the lecture and tutorial, safe drone assembly techniques were reviewed as well as safety requirements. We covered pre-flight planning and in-flight precautions, including maintaining UAV within visual line of sight of the remote pilot.
 
-*	Read the [Phantom 4 manual] (/Documents/Phantom_4_User_Manual_v1.6.pdf) to learn basic manipulation, assembly, setup software, and calibration of the quadcopter drone.
+*	Read the [Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf) to learn basic manipulation, assembly, setup software, and calibration of the quadcopter drone.
 *	Review the drone, its basic flight manipulation, rules and regulations for drone flights.
 *	Read through the [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf)l and participated in a hands-on tutorial setting up the drone and software environment for a flight. 	
 *	One-hour practice fly, get familiar with manual drone operations, including takeoff and landing, changing flight altitude, and adjusting drone camera/video settings
@@ -57,7 +57,7 @@ Register your drone to FAA is very important in the United States since FAA need
 ![image](/Files/FAARegistration.png)
 
 Directions for Registering Drone with FAA:
-1.	Go to https://faadronezone.faa.gov/#/
+1.	Go to [https://faadronezone.faa.gov/#/](https://faadronezone.faa.gov/#/)
 2.	Click “Register” in the same row as “I fly under Part 107 or as a Public Aircraft.”
 3.	Enter information and click “Create Account.”
 4.	Verify your email address and log in
@@ -105,7 +105,7 @@ Autonomous mapping provides an advantage over manual flight operations by ensuri
 
 *	Read the [CSGIS_Preflight_Planning_Document] (/Documents/CSGIS_Preflight_Planning_Document.pdf) in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
 *	Learn how to plan and create autonomous flights with different mapping parameters
-*	2-hour practice flying via auto-pilot, collecting images for mapping, and transfer all images from drone to computer.
+*	2-hour practice flying via auto-pilot, collecting images for mapping, and transferring all images from drone to computer.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n2iIS3-4z-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -120,6 +120,7 @@ Participants learned how to plan and create a new flight area using autonomous f
 *	How front/side overlap ratio is related to flying time and the number of batteries needed.
 
 ![image](/Files/Table1.png) 
+![image](/Files/GSPro.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Op4rjLfgmpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -127,13 +128,15 @@ Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS P
 
 # 4. Image Processing
 
-### Drone Image stitching
+The general steps reviewed in this course included: image stitching, geo-referencing, derivation of orthomosaics and elevation models and image correction. Also, we will review the importance of visually inspecting all drone images to rule out low-quality images (e.g., blurry or oblique) and minimize measurement error in the final data products. This module will also cover the use of Esri Drone2Map software to stitch together hundreds of separate images collected by drones in the field and geo-register them into orthomosaics.
+
+### Drone Image stitching and GIS analysis
 
  [Processing the drone imagery to mapping products](/Documents/CSGIS_Drone2map_User_Guide.pdf)
 
 *	Learn the “CSGIS_Drone2map User Guide”.
 *	1-hour lab session for drone2Map data processing.
-Note: Drone2Map software package could be downloaded from course material resources folder. Sample data are provided in course folder.
+Note: Drone2Map software package could be downloaded from the course material resources folder. Sample data are provided in the course folder.
 
 **Geo-referencing**
 
@@ -144,8 +147,9 @@ For points on land, we used obvious objects, such as red buckets that could be e
 
  [Data analysis in Geographical Information Science (GIS)](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
 *	Learn the “CSGIS_ ArcGIS based Image Analyses Manual”
-*	1-hour lab session for GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification.
-Note: ArcMap software package could be downloaded from course material resources folder. Sample data are provided in course folder.
+*	GIS analysis includes: geodatabase management, digitizing raster imagery, pixel/object based classification methods, band math, and calculations of vegetation indexes (e.g., Green Leaf Index and NDVI). The canopy information, such as Leaf Area Index (LAI) can be derived from drone imagery as well (Roth et al 2018). 
+
+Note: ArcGIS and Drone2Map software packages could be downloaded from [Esri](https://www.esri.com/en-us/home).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yaX336s4DjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -161,19 +165,38 @@ In order to fly drones under the FAA’s Small UAS Rule (Part 107) in the U.S.A.
 
 Above training document reviewed content from the course modules as well as additional material necessary to prepare for the drone examination, including airspace concepts, weather sources, radio communications, sectional charts, and drone physics. It also includes additional online resources and sample questions for the examination.
 
-
  [Drone imagery and eelgrass mapping principles](/Slides/UAV_Traning_Slides_Yang.pptx)
 *	40 minutes lecture for drone eelgrass mapping principles. 
 *	30 minutes discussion followed by the lecture to discuss eelgrass drone mapping. 
 
 ### Before Flight Check-list
-*	Registered the drone with FAA, checked the airmap or B4Ufly that the mapping area is approved by FAA.
-*	Install “DJI Go 4” and “DJI GS Pro”. Note those app only available on ipad (no iphone version).
+*	Registered the drone with FAA, checked the [airmap](https://app.airmap.com/geo?28.626370,-81.461372,9.245341z) or [B4Ufly](https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/) that the mapping area is approved by FAA.
+*	Install “DJI Go 4” and “DJI GS Pro”. Note GS pro only available on iPad (no iphone version).
 *	Check everything is good using DJI GO 4 before use GS pro, then go to GS Pro and click to fly. The take-off location is better to be flat, dry and close to the mapping area as much as possible to save the battery. 
 *	Charge both controller and drone batteries. Each battery takes about 1 hour and 20 minutes to charge to full, the controller needs about 3 hours. There are two charging ports on the original charger, one for the controller and one for battery.
 *	There is a 32gb sd card comeing with the drone. Make sure to clear it before going to the field. If using a computer to format, use the fat32.
 *	Take a test fly to confirm everything is good and the drone can take off. If the drone is good to be taken off, that will save lots of the time when doing the mapping in the field.
 *	When the drone fly to the area and start mapping, make sure turn on the sound of the ipad and hear the shutter sounds every 2-3s. Sometimes if accidentally clicked video shooting at some point before the mapping, and the drone will pretend to do the mapping, but keep shooting video without the notice.
+
+### Resources:
+
+[Esri training course](https://www.esri.com/training/) 
+·       Drone2Map for ArcGIS: Bring Drone Imagery into ArcGIS (69min)
+·       Getting Started with Drone2Map for ArcGIS (2h15min)
+·       Creating 2D Products Using Drone2Map for ArcGIS (2hrs)
+·       Working with Full Motion Video in ArcGIS (2hrs)
+·       Creating 3D Products Using Drone2Map for ArcGIS (4h45min)
+
+[Citizen Sience GIS NSF Drone mapping project](https://www.citizensciencegis.org/nsfsmithosniandrones)
+
+
+[GeoNadir - Drones protecting at risk ecosystems](https://www.geonadir.com/)
+
+
+
+
+
+
 
 
 
