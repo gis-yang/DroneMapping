@@ -199,10 +199,10 @@ Above training document reviewed content from the course modules as well as addi
 ## Before Flight Check-list
 *	Registered the drone with FAA, checked the [airmap](https://app.airmap.com/geo?28.626370,-81.461372,9.245341z) or [B4Ufly](https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/) that the mapping area is approved by FAA.
 *	Install “DJI Go 4” and “DJI GS Pro”. Note GS pro only available on iPad (no iphone version).
-*	Check everything is good using DJI GO 4 before use GS pro, then go to GS Pro and click to fly. The take-off location is better to be flat, dry and close to the mapping area as much as possible to save the battery. 
 *	Charge both controller and drone batteries. Each battery takes about 1 hour and 20 minutes to charge to full, the controller needs about 3 hours. There are two charging ports on the original charger, one for the controller and one for battery.
 *	There is a 32gb sd card coming with the drone. Make sure to clear it before going to the field. If using a computer to format, use the fat32.
 *	Take a test fly to confirm everything is good and the drone can take off. If the drone is good to be taken off, that will save lots of the time when doing the mapping in the field.
+*	Check everything is good using DJI GO 4 before use GS pro, then go to GS Pro and click to fly. The take-off location is better to be flat, dry and close to the mapping area as much as possible to save the battery. 
 *	When the drone fly to the area and start mapping, make sure turn on the sound of the ipad and hear the shutter sounds every 2-3s. Sometimes if accidentally clicked video shooting at some point before the mapping, and the drone will pretend to do the mapping, but keep shooting video without the notice.
 
 ## Resources:
