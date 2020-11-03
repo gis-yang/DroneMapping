@@ -103,9 +103,14 @@ For more FAA regulation, please read [FAA remote pilot study guide](/Documents/r
 
 Autonomous mapping provides an advantage over manual flight operations by ensuring that data collection is efficient and replicable at each site. In this module we learn how to use autonomous functions to capture hundreds of images that were pre-programmed to be evenly distributed with nadir view over the mapping area.
 
+![image](/Files/GSPro.png)
+
 *	Read the [CSGIS_Preflight_Planning_Document] (/Documents/CSGIS_Preflight_Planning_Document.pdf) in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
-*	Learn how to plan and create autonomous flights with different mapping parameters
-*	2-hour practice flying via auto-pilot, collecting images for mapping, and transferring all images from drone to computer.
+*	Learn how to plan and create autonomous flights with different mapping parameters.
+*	We recommend UAV flight path set to be parallel with the long side of the mapping area in order to minimize the UAV turning points and maximize battery efficiency.
+*	Rain, wind, and fog all frequently occur in coastal areas and influence drone flights. To address that, flights need to be conducted with wind speeds less than 10m/s, no heavy rain and no fog. FAA Part 107 regulations state that the UAV should not be flown in fog or other situations where the operator loses line of sight.
+![image](/Files/FlyPath)
+
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n2iIS3-4z-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -120,7 +125,6 @@ Participants learned how to plan and create a new flight area using autonomous f
 *	How front/side overlap ratio is related to flying time and the number of batteries needed.
 
 ![image](/Files/Table1.png) 
-![image](/Files/GSPro.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Op4rjLfgmpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -140,6 +144,8 @@ Note: Drone2Map software package could be downloaded from the course material re
 
 **Geo-referencing**
 
+One of the biggest challenges of coastal drone mapping is that a relatively homogeneous water surface leads to difficulties in registering images because the image mosaic algorithm usually needs some target on the image as a matching point to stitch together images with overlaying parts.
+
 For points on land, we used obvious objects, such as red buckets that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP). Using a Garmin R1 GNSS high-performance handheld GPS, we collected about 10 points for each of the sites. The coordinates of the GCPs are included in the mapping software to geo-register the images. By associating features on the scanned image with real-world x and y coordinates, the software can progressively warp the image so it fits other spatial datasets. 
 
 
@@ -153,13 +159,13 @@ Note: ArcGIS and Drone2Map software packages could be downloaded from [Esri](htt
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yaX336s4DjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-UAV/dronehigh-resolution 3D fly-through video for Bodega Marine Laboratory (BML)
+UAV/drone high-resolution 3D fly-through video for Bodega Marine Laboratory (BML)
 
 # 5. Post-training Self-study
 
 ### Self-study for FAA UAS Exam
 
-In order to fly drones under the FAA’s Small UAS Rule (Part 107) in the U.S.A., one must obtain a Remote Pilot Certificate from the FAA (FAA.gov). This certificate demonstrates that the remote pilot understands the regulations, operating requirements, and procedures for safely flying drones. 
+10-hour self-paced study guide to assist partners with the Federal Aviation Administration (FAA) Part 107 examination. In order to fly drones for research purposes under the FAA’s Small UAS Rule (Part 107) in the U.S., one must obtain a Remote Pilot Certificate from the FAA. This certificate demonstrates that the remote pilot understands the regulations, operating requirements, and procedures for safely flying drones.
 
 [Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
 
@@ -169,23 +175,23 @@ Above training document reviewed content from the course modules as well as addi
 *	40 minutes lecture for drone eelgrass mapping principles. 
 *	30 minutes discussion followed by the lecture to discuss eelgrass drone mapping. 
 
-### Before Flight Check-list
+## Before Flight Check-list
 *	Registered the drone with FAA, checked the [airmap](https://app.airmap.com/geo?28.626370,-81.461372,9.245341z) or [B4Ufly](https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/) that the mapping area is approved by FAA.
 *	Install “DJI Go 4” and “DJI GS Pro”. Note GS pro only available on iPad (no iphone version).
 *	Check everything is good using DJI GO 4 before use GS pro, then go to GS Pro and click to fly. The take-off location is better to be flat, dry and close to the mapping area as much as possible to save the battery. 
 *	Charge both controller and drone batteries. Each battery takes about 1 hour and 20 minutes to charge to full, the controller needs about 3 hours. There are two charging ports on the original charger, one for the controller and one for battery.
-*	There is a 32gb sd card comeing with the drone. Make sure to clear it before going to the field. If using a computer to format, use the fat32.
+*	There is a 32gb sd card coming with the drone. Make sure to clear it before going to the field. If using a computer to format, use the fat32.
 *	Take a test fly to confirm everything is good and the drone can take off. If the drone is good to be taken off, that will save lots of the time when doing the mapping in the field.
 *	When the drone fly to the area and start mapping, make sure turn on the sound of the ipad and hear the shutter sounds every 2-3s. Sometimes if accidentally clicked video shooting at some point before the mapping, and the drone will pretend to do the mapping, but keep shooting video without the notice.
 
-### Resources:
+## Resources:
 
 [Esri training course](https://www.esri.com/training/) 
-·       Drone2Map for ArcGIS: Bring Drone Imagery into ArcGIS (69min)
-·       Getting Started with Drone2Map for ArcGIS (2h15min)
-·       Creating 2D Products Using Drone2Map for ArcGIS (2hrs)
-·       Working with Full Motion Video in ArcGIS (2hrs)
-·       Creating 3D Products Using Drone2Map for ArcGIS (4h45min)
+*       Drone2Map for ArcGIS: Bring Drone Imagery into ArcGIS (69min)
+*       Getting Started with Drone2Map for ArcGIS (2h15min)
+*       Creating 2D Products Using Drone2Map for ArcGIS (2hrs)
+*       Working with Full Motion Video in ArcGIS (2hrs)
+*       Creating 3D Products Using Drone2Map for ArcGIS (4h45min)
 
 [Citizen Sience GIS NSF Drone mapping project](https://www.citizensciencegis.org/nsfsmithosniandrones)
 
@@ -201,5 +207,4 @@ Above training document reviewed content from the course modules as well as addi
 
 
  
-
 
