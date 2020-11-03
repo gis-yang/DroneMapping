@@ -203,7 +203,7 @@ Above training document reviewed content from the course modules as well as addi
 *	There is a 32gb sd card coming with the drone. Make sure to clear it before going to the field. If using a computer to format, use the fat32.
 *	Take a test fly to confirm everything is good and the drone can take off. If the drone is good to be taken off, that will save lots of the time when doing the mapping in the field.
 *	Check everything is good using DJI GO 4 before use GS pro, then go to GS Pro and click to fly. The take-off location is better to be flat, dry and close to the mapping area as much as possible to save the battery. 
-*	When the drone fly to the area and start mapping, make sure turn on the sound of the ipad and hear the shutter sounds every 2-3s. Sometimes if accidentally clicked video shooting at some point before the mapping, and the drone will pretend to do the mapping, but keep shooting video without the notice.
+*	When the drone fly to the area and start mapping, make sure turn on the sound of the ipad and hear the shutter sounds every 2-3s. Sometimes if accidentally clicked video shooting at some point before the mapping, the drone will pretend to do the mapping, but keep shooting video without the notice.
 
 ## Resources:
 
