@@ -13,16 +13,16 @@ Unoccupied Aerial Vehicles (UAV), also known as small Unmanned Aerial Systems (s
 
  **Course Objectives**
  
-1.	Basic knowledge of Drone, setup and maintenance. 
+1.	Basic knowledge of Drone, setup, and maintenance. 
 2.	Learn how to fly drones, manual manipulation and auto-pilot.
 3.	Operate the UAV efficiently, safely, ethically and consistent with FAA regulations.
 3.	Learn FAA part 107 exam, e.g., airspace regulations, sectional charts, and etc.
 4.	Safety guidelines when flying drones. 
 5.	Learn to use DJI GS Pro for auto-pilot flying and collecting field data. 
-6.	In situ measurements guide, collecting field data and Ground Control Points (GCPs).
+6.	Collecting field data and Ground Control Points (GCPs).
 7.	Use Esri Drone2Map to stitch and geo-referencing the drone images. 
 8.	Data management and cloud storage of drone imagery
-9.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification. 
+9.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index, and image classification. 
 
 
 ![image](/Files/TrainingModules.png)
