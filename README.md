@@ -8,7 +8,7 @@ Yang, B., Hawthorne, T., Hessing-Lewis, M., Duffy, E., Reshitnyk, L., Feinman, M
 
 **Course description**
 
-This open-access drone mapping training course is designed to use  Unmanned Aerial Systems (UAS), i.e. UAV or drones to collect remote sensing data for coastal mapping and seagrass conservation. We create this training course for research partners and braoder communities to learn how to fly drone , and perform the data processing in Geographical Information Science (GIS) method. This training course contains topics of flying DJI drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and GIS based drone image analyses.
+This open-access drone mapping training course is designed to use  Unmanned Aerial Systems (UAS), i.e. UAV or drones to collect remote sensing data for coastal mapping and seagrass conservation. We create this training course for research partners and broader communities to learn how to fly drone , and perform the data processing in Geographical Information Science (GIS) method. This training course contains topics of flying DJI drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and GIS based drone image analyses.
 
 
  **Course Objectives**
