@@ -140,7 +140,7 @@ Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS P
 
 **Module Materials:**
 
-[CSGIS_Preflight_Planning_Document] (/Documents/CSGIS_Preflight_Planning_Document.pdf)
+[CSGIS_Preflight_Planning_Document](/Documents/CSGIS_Preflight_Planning_Document.pdf)
 
 # 4. Image Processing
 
