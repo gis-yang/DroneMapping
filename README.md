@@ -73,8 +73,6 @@ Directions for Registering Drone with FAA:
 14.	Mark your drone with the registration number according to the following FAA 
 
 
-
-
 # 2. In-Flight Operation
 
 Following the overview of drone basics, there is a 1.5-hour manual flying session. Through this interactive exercise, participants gained experience in basic drone operations. 
@@ -94,6 +92,7 @@ Open training course for drone mapping: (3/5) Calibrate the drone and setup the 
 * 	All drones are required to be registered with the FAA if they weigh more than 0.55 lbs (250 grams) and less than 55 lbs (25 kg). 
 * 	Maintain UAV within visual line of sight of the remote pilot. a) standard flight altitude (< 400 feet above ground level (AGL); b) minimum distance from clouds (> 500 feet below the cloud and 2,000 feet horizontally from the cloud); and c) maintaining a safe distance from bystanders.
 * 	The minimum distance of the UAS from clouds must be no less than 500 feet below the cloud and 2,000 feet horizontally from the cloud. 
+*	U.S. Part 107 (FAA sUAS Part 107) specifies regulations to fly a UAV in the National Airspace System (NAS). Jurisdictional differences across study sites affected some flight restrictions under FAA regulations. For sites within controlled airspace, Low Altitude Authorization and Notification Capability (LAANC) and Certificates of Authorization (COAs) needed to be considered and planned for well in advance of drone operations.
 
 Note: There are similar regulations in Canada. All drones that weigh between 250 g and 25 kg must be registered with Transport Canada. FAA certification (U.S.) is not applicable in Canada, and drone pilots must follow the rules in the Canadian Aviation Regulations (CARs) Part IX—Remotely Piloted Aircraft Systems.
 
@@ -140,13 +139,14 @@ The general steps reviewed in this course included: image stitching, geo-referen
 
 *	Learn the “CSGIS_Drone2map User Guide”.
 *	1-hour lab session for drone2Map data processing.
+*	Findable, Accessible, Interoperable and Reusable (FAIR) science data principles.	(Wilkinson et al., 2016), 
 Note: Drone2Map software package could be downloaded from the course material resources folder. Sample data are provided in the course folder.
 
 **Geo-referencing**
 
 One of the biggest challenges of coastal drone mapping is that a relatively homogeneous water surface leads to difficulties in registering images because the image mosaic algorithm usually needs some target on the image as a matching point to stitch together images with overlaying parts.
 
-For points on land, we used obvious objects, such as red buckets that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP). Using a Garmin R1 GNSS high-performance handheld GPS, we collected about 10 points for each of the sites. The coordinates of the GCPs are included in the mapping software to geo-register the images. By associating features on the scanned image with real-world x and y coordinates, the software can progressively warp the image so it fits other spatial datasets. 
+For points on land, we used obvious objects, such as red buckets that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP). It is recommended to collect 10 points at each monitoring site. On land, use colorful objects, such as red buckets, that could be easily identified in the drone image. Over water, use light-colored buoys with anchors fixed on the water. When collecting GCP points, we recommended starting the GPS and wait until there were more than 12 satellites available for calculating the position. For each GCP location, we encourage to wait at least 90 seconds until the GPS signal became stable. Usually, GPS accuracy can reach 30-50 cm under cloudless weather conditions. For each GCP location, collecte 20 repeated measurements and use the average value as the input coordinates for geo-referencing.
 
 
 ### Orthomosaic & Elevation Data
