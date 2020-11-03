@@ -8,27 +8,36 @@ Yang, B., Hawthorne, T., Hessing-Lewis, M., Duffy, E., Reshitnyk, L., Feinman, M
 
 **Course description**
 
-This open-access drone mapping training course is designed to use  Unmanned Aerial Systems (UAS), i.e. UAV or drones to collect remote sensing data for coastal mapping and seagrass conservation. We create this training course for research partners and broader communities to learn how to fly drone , and perform the data processing in Geographical Information Science (GIS) method. This training course contains topics of flying DJI drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and GIS based drone image analyses.
+Unoccupied Aerial Vehicles (UAV), also known as small Unmanned Aerial Systems (sUASs), Unmanned Aerial Systems (UAS) or drones, with their high spatial resolution, temporal flexibility, and ability to repeat photogrammetry, afford advancements in other remote sensing approaches for coastal mapping, habitat monitoring, and environmental management. This open-access drone mapping training course is designed to use drones to collect remote sensing data for coastal mapping and seagrass conservation. We create this training course for research partners and broader communities to learn how to fly drones, and perform data processing in Geographical Information Science (GIS) method. This training course contains topics of flying drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and GIS based drone image analyses.
 
 
  **Course Objectives**
  
 1.	Basic knowledge of Drone, setup and maintenance. 
-2.	Learn how to fly drone, manual manipulation and auto-pilot.
-3.	Learn FAA regulation, sectional chart, and how to take the part 107 exam.
-4.	Safety guidlines when flying drone. 
+2.	Learn how to fly drones, manual manipulation and auto-pilot.
+3.	Operate the UAV efficiently, safely, ethically and consistent with FAA regulations.
+3.	Learn FAA part 107 exam, e.g., airspace regulations, sectional charts, and etc.
+4.	Safety guidelines when flying drones. 
 5.	Learn to use DJI GS Pro for auto-pilot flying and collecting field data. 
 6.	In situ measurements guide, collecting field data and Ground Control Points (GCPs).
-7.	Use Esri Drone2Map to stitching and geo-referencing the drone images. 
+7.	Use Esri Drone2Map to stitch and geo-referencing the drone images. 
 8.	Data management and cloud storage of drone imagery
 9.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index and image classification. 
 
+
+![image](/Files/TrainingModules.png)
+
+The training program is divided into 5 training sections and one post-training self-study guide to prepare participants for the FAA Part 107 examination. This examination is necessary for commercial-based drone operators to conduct flights in the United States. 
+
 # 1. Drone Basics
 
-[Introduction to flying drone](/Documents/CSGIS_Preflight_Planning_and_Safety.pdf)
-*	20 minutes lecture to drone and basic manipulation.
-*	Read the “Phantom 4 user manual” in the course material and setup the drone.
-*	1.5-hour practice fly with the help of TA, get familiar with drone manipulating, fly around and taking picture/video using the drone.
+The first training module includes a tutorial to introduce basic manipulation, assembly, setup software, and calibration of the quadcopter drone. The DJI Phantom 4 Pro were used as an example. The training contents includes a lecture-based review of the drone, its basic flight manipulation, rules and regulations for drone flights. Through the lecture and tutorial, safe drone assembly techniques were reviewed as well as safety requirements. We covered pre-flight planning and in-flight precautions, including maintaining UAV within visual line of sight of the remote pilot.
+
+*	Read the [Phantom 4 manual] (/Documents/Phantom_4_User_Manual_v1.6.pdf) to learn basic manipulation, assembly, setup software, and calibration of the quadcopter drone.
+*	Review the drone, its basic flight manipulation, rules and regulations for drone flights.
+*	Read through the [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf)l and participated in a hands-on tutorial setting up the drone and software environment for a flight. 	
+*	One-hour practice fly, get familiar with manual drone operations, including takeoff and landing, changing flight altitude, and adjusting drone camera/video settings
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4PYAk11Jio8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -38,11 +47,14 @@ Open training course for drone mapping: (1/5) Drone unboxing and assemble
 
 Open training course for drone mapping: (2/5) How to setup the software for DJI Phantom 4
 
+
 ### Register your drone
 
-In the event that the FAA needs to identify a drone in the United States, they will utilize your FAA registration number to seek information. It only takes about 10 minutes to register, and failure to do so can result in extreme repercussions from the FAA.
+Register your drone to FAA is very important in the United States since FAA needs to identify a drone and use FAA registration number to seek information. 
  
 “Failure to register with the FAA could result in one or a combination of the following: a civil penalty of up to $27,500; a criminal fine of up to $250,000; imprisonment for up to three years.” - FAA
+
+![image](/Files/FAARegistration.png)
 
 Directions for Registering Drone with FAA:
 1.	Go to https://faadronezone.faa.gov/#/
@@ -58,17 +70,19 @@ Directions for Registering Drone with FAA:
 11.	Follow prompts for payment
 12.	Navigate back to your “FAA Part 107 Dashboard” and click “Manage sUAS Inventory”
 13.	Find the drone that you registered and find the “Registration” column. 
-14.	Mark your drone with the registration number according to the following FAA Parameters:
-	*	The unique identifier must be maintained in a condition that is legible.
-	*	The unique identifier must be affixed to the small unmanned aircraft by any means necessary to ensure that it will remain affixed for the duration of each operation.
-	*	The unique identifier must be legibly displayed on an external surface of the small unmanned aircraft.
+14.	Mark your drone with the registration number according to the following FAA 
+
+
 
 
 # 2. In-Flight Operation
-* Before flights, the remote pilot needs to check gloves, eye protection, safety vests, radio, and life jacket if taking off from a boat. 
-* During the flights, wthe UAV needs to remain within visual line of sight of the remote pilot.
-* The flight is not permitted directly over non-participating people.   
-* Because coastal mapping with drones often includes taking off and landing on a boat, additional procedures and safety concerns were discussed. 
+
+Following the overview of drone basics, there is a 1.5-hour manual flying session. Through this interactive exercise, participants gained experience in basic drone operations. 
+
+* 	Remote pilot checks for safety equipment including gloves, eye protection, safety vests, radio, and life jackets if taking off from a boat
+* 	The flight is not permitted directly over non-participating people.   
+*	Because coastal mapping with drones often includes taking off and landing on a boat,  hand catching of the drone on a boat needs to be practiced for both takeoff and landing.
+*	Focus on maintaining visibility and line of sight with the drone and avoiding hazards.
 
 ### Drone Manipulation
 
@@ -77,28 +91,34 @@ Directions for Registering Drone with FAA:
 Open training course for drone mapping: (3/5) Calibrate the drone and setup the software
 
 ### Air Space Regulation
-* all drones are required to be registered with the FAA if they weigh more than 0.55 lbs (250 grams) and less than 55 lbs (25 kg). 
-* When operating a drone, a Remote Pilot-in-Command cannot fly an UAV higher than 400 feet above ground level (AGL), unless it’s flown within a 400-foot radius of a structure and does not fly higher than 400 feet above the structure’s immediate uppermost limit. 
-* The minimum distance of the UAS from clouds must be no less than 500 feet below the cloud and 2,000 feet horizontally from the cloud. 
+* 	All drones are required to be registered with the FAA if they weigh more than 0.55 lbs (250 grams) and less than 55 lbs (25 kg). 
+* 	Maintain UAV within visual line of sight of the remote pilot. a) standard flight altitude (< 400 feet above ground level (AGL); b) minimum distance from clouds (> 500 feet below the cloud and 2,000 feet horizontally from the cloud); and c) maintaining a safe distance from bystanders.
+* 	The minimum distance of the UAS from clouds must be no less than 500 feet below the cloud and 2,000 feet horizontally from the cloud. 
+
+Note: There are similar regulations in Canada. All drones that weigh between 250 g and 25 kg must be registered with Transport Canada. FAA certification (U.S.) is not applicable in Canada, and drone pilots must follow the rules in the Canadian Aviation Regulations (CARs) Part IX—Remotely Piloted Aircraft Systems.
 
 For more FAA regulation, please read [FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
 
 # 3. Autonomous Mapping
 
- [Advance drone flying](/Documents/CSGIS_Preflight_Planning_Document.pdf)
-*	Read the “CSGIS_Preflight_Planning_Document” in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
-*	2-hour practice flying via auto-pilot with the help of TA, collecting images for mapping, and transfer all images from drone to computer.
+Autonomous mapping provides an advantage over manual flight operations by ensuring that data collection is efficient and replicable at each site. In this module we learn how to use autonomous functions to capture hundreds of images that were pre-programmed to be evenly distributed with nadir view over the mapping area.
+
+*	Read the [CSGIS_Preflight_Planning_Document] (/Documents/CSGIS_Preflight_Planning_Document.pdf) in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
+*	Learn how to plan and create autonomous flights with different mapping parameters
+*	2-hour practice flying via auto-pilot, collecting images for mapping, and transfer all images from drone to computer.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n2iIS3-4z-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Open training course for drone mapping: (4/5) Create drone mapping task using DJI GS Pro
 
 ### Mapping planning & settings
 
-Participants learned how to plan and create a new flight area using autonomous flights with different mapping parameters. Training covered: 
-* tradeoffs between spatial coverage and spatial resolution (e.g. if drones fly at a higher elevation, the image coverage is larger, but the spatial resolution is coarser and vice versa); 
-* appropriate settings of the camera model for a proper shooting angle to minimize sun glint; 
-* how flight direction and capture mode varies depending on the shape of the site and the wind directions; 
-* how front/side overlap ratio is highly correlated with flying time and the number of batteries needed. The values to be used for addressing those factors are included in Table 1.  
+Participants learned how to plan and create a new flight area using autonomous flights with different mapping parameters. Considerations for autonomous parameters included: 
+*	Tradeoffs between spatial coverage and spatial resolution (e.g., if drones fly at a higher elevation, the image coverage is larger, but the spatial resolution is coarser and vice versa); 
+*	Appropriate settings of the camera model for a proper shooting angle to minimize sun glint; 
+*	How flight direction and capture mode vary depending on the shape of the site and the wind directions; 
+*	How front/side overlap ratio is related to flying time and the number of batteries needed.
+
 ![image](/Files/Table1.png) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Op4rjLfgmpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -152,17 +172,5 @@ Above training document reviewed content from the course modules as well as addi
 
 
  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
