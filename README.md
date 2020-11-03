@@ -171,10 +171,6 @@ UAV/drone high-resolution 3D fly-through video for Bodega Marine Laboratory (BML
 
 Above training document reviewed content from the course modules as well as additional material necessary to prepare for the drone examination, including airspace concepts, weather sources, radio communications, sectional charts, and drone physics. It also includes additional online resources and sample questions for the examination.
 
- [Drone imagery and eelgrass mapping principles](/Slides/UAV_Traning_Slides_Yang.pptx)
-*	40 minutes lecture for drone eelgrass mapping principles. 
-*	30 minutes discussion followed by the lecture to discuss eelgrass drone mapping. 
-
 ## Before Flight Check-list
 *	Registered the drone with FAA, checked the [airmap](https://app.airmap.com/geo?28.626370,-81.461372,9.245341z) or [B4Ufly](https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/) that the mapping area is approved by FAA.
 *	Install “DJI Go 4” and “DJI GS Pro”. Note GS pro only available on iPad (no iphone version).
