@@ -54,7 +54,6 @@ Register your drone to FAA is very important in the United States since FAA need
  
 “Failure to register with the FAA could result in one or a combination of the following: a civil penalty of up to $27,500; a criminal fine of up to $250,000; imprisonment for up to three years.” - FAA
 
-![image](/Files/FAARegistration.png)
 
 Directions for Registering Drone with FAA:
 1.	Go to [https://faadronezone.faa.gov/#/](https://faadronezone.faa.gov/#/)
@@ -72,6 +71,7 @@ Directions for Registering Drone with FAA:
 13.	Find the drone that you registered and find the “Registration” column. 
 14.	Mark your drone with the registration number according to the following FAA 
 
+![image](/Files/FAARegistration.png)
 
 # 2. In-Flight Operation
 
@@ -108,9 +108,6 @@ Autonomous mapping provides an advantage over manual flight operations by ensuri
 *	Learn how to plan and create autonomous flights with different mapping parameters.
 *	We recommend UAV flight path set to be parallel with the long side of the mapping area in order to minimize the UAV turning points and maximize battery efficiency.
 *	Rain, wind, and fog all frequently occur in coastal areas and influence drone flights. To address that, flights need to be conducted with wind speeds less than 10m/s, no heavy rain and no fog. FAA Part 107 regulations state that the UAV should not be flown in fog or other situations where the operator loses line of sight.
-![image](/Files/FlyPath)
-
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n2iIS3-4z-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Open training course for drone mapping: (4/5) Create drone mapping task using DJI GS Pro
@@ -132,6 +129,8 @@ Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS P
 # 4. Image Processing
 
 The general steps reviewed in this course included: image stitching, geo-referencing, derivation of orthomosaics and elevation models and image correction. Also, we will review the importance of visually inspecting all drone images to rule out low-quality images (e.g., blurry or oblique) and minimize measurement error in the final data products. This module will also cover the use of Esri Drone2Map software to stitch together hundreds of separate images collected by drones in the field and geo-register them into orthomosaics.
+
+![image](/Files/FlyPath.png)
 
 ### Drone Image stitching and GIS analysis
 
@@ -160,6 +159,8 @@ Note: ArcGIS and Drone2Map software packages could be downloaded from [Esri](htt
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yaX336s4DjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 UAV/drone high-resolution 3D fly-through video for Bodega Marine Laboratory (BML)
+
+Furthermore, drone mapping can generate additional elevation data products, such as Digital TerrainModels (DTM) and Digital Surface Models (DSM). Such products are useful for topography analysis and 3D visualization. Above video shows the high-resolution orthomosaic imagery combined with the high-resolution Digital Elevation Model can be further processed to a 3D visualization.
 
 # 5. Post-training Self-study
 
