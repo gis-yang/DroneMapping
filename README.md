@@ -148,7 +148,7 @@ The general steps reviewed in this course included: image stitching, geo-referen
 
 ![image](/Files/FlyPath.png)
 
-### Drone Image stitching and GIS analysis
+### Image stitching and GIS 
 
 
 *	Learn the [CSGIS_Drone2map User Guide](/Documents/CSGIS_Drone2map_User_Guide.pdf).
