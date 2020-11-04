@@ -47,6 +47,10 @@ Open training course for drone mapping: (1/5) Drone unboxing and assemble
 
 Open training course for drone mapping: (2/5) How to setup the software for DJI Phantom 4
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2WltMwrWlyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+DJI official toturial of drone calibration
+
 
 ### Register your drone
 
