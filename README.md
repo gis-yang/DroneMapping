@@ -218,11 +218,7 @@ Above training document reviewed content from the course modules as well as addi
 *       Working with Full Motion Video in ArcGIS (2hrs)
 *       Creating 3D Products Using Drone2Map for ArcGIS (4h45min)
 
-[Citizen Sience GIS NSF Drone mapping project](https://www.citizensciencegis.org/nsfsmithosniandrones)
-
-
-[GeoNadir - Drones protecting at risk ecosystems](https://www.geonadir.com/)
-
+[Citizen Sience GIS NSF Drone mapping project](https://www.citizensciencegis.org/nsfsmithsoniandrones)
 
 
 
