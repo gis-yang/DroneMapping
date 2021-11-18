@@ -1,7 +1,5 @@
 # Open-access Drone Mapping Course
 
-**[Citizen Science GIS](http://www.citizensciencegis.org)**
-
 **Citation:**
 
 Yang, B.; Hawthorne, T.L.; Hessing-Lewis, M.; Duffy, E.J.; Reshitnyk, L.Y.; Feinman, M.; Searson, H. Developing an Introductory UAV/Drone Mapping Training Program for Seagrass Monitoring and Research. Drones 2020, 4, 70.[DOI:10.3390/drones4040070](https://www.mdpi.com/878464)
