@@ -1,4 +1,4 @@
-# SJSU Geofly Lab Open-access Drone Mapping Course
+# Geofly Lab Drone Mapping Course
 
 Maintained by Bo Yang and Henri Brillon
 
