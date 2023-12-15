@@ -138,6 +138,8 @@ Participants learned how to plan and create a new flight area using autonomous f
 
 Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS Pro for autonomous mapping
 
+### Maping planning 
+
 **Module Materials:**
 
 [CSGIS_Preflight_Planning_Document](/Documents/CSGIS_Preflight_Planning_Document.pdf)
