@@ -1,8 +1,6 @@
-# Open-access Drone Mapping Course
+# SJSU Geofly Lab Open-access Drone Mapping Course
 
-**Citation:**
-
-Yang, B.; Hawthorne, T.L.; Hessing-Lewis, M.; Duffy, E.J.; Reshitnyk, L.Y.; Feinman, M.; Searson, H. Developing an Introductory UAV/Drone Mapping Training Program for Seagrass Monitoring and Research. Drones 2020, 4, 70.[DOI:10.3390/drones4040070](https://www.mdpi.com/878464)
+Maintained by Bo Yang and Henri Brillon
 
 **Course description**
 
