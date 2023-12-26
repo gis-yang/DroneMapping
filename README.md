@@ -4,22 +4,25 @@ Maintained by Bo Yang and Henri Brillon
 
 **Course description**
 
-Unoccupied Aerial Vehicles (UAV), also known as small Unmanned Aerial Systems (sUASs), Unmanned Aerial Systems (UAS) or drones, with their high spatial resolution, temporal flexibility, and ability to repeat photogrammetry, afford advancements in other remote sensing approaches for coastal mapping, habitat monitoring, and environmental management. This open-access drone mapping training course is designed to use drones to collect remote sensing data for coastal mapping and seagrass conservation. We create this training course for research partners and broader communities to learn how to fly drones, and perform data processing in Geographical Information Science (GIS) method. This training course contains topics of flying drones, Preflight & Planning, FAA part 107 examination, Drone2map user guide, and GIS based drone image analyses.
+This open-access drone mapping training course teaches the skills and knowledge required to produce maps with drones. All major steps are covered, including drone flight, mission planning, field data collection, post-processing using photogrammetry techniques, and geographical information system (GIS) analysis of the resulting products. Collection of high-precision ground control points (GCPs) using a GNSS receiver, as well as real-time kinematic (RTK) and post-process kinematic (PPK) corrections, is also covered.
 
+Drones (also known as UAVs and UAS) provide high spatial resolution, temporal flexibility, and ability to repeat photogrammetry, they provide an advantage over other remote sensing approaches. Research applications include coastal mapping, habitat monitoring, fire behavior analysis, defensible space assessments and more. This training course allows research partners and broader communities to learn how to fly drones, and perform data processing.
 
  **Course Objectives**
  
-1.	Basic knowledge of Drone, setup, and maintenance. 
-2.	Learn how to fly drones, manual manipulation and auto-pilot.
-3.	Operate the UAV efficiently, safely, ethically and consistent with FAA regulations.
-3.	Learn FAA part 107 exam, e.g., airspace regulations, sectional charts, and etc.
+1.	Basic knowledge of drone setup and maintenance. 
+2.	Manual and automated flight operations.
+3.	Efficiency and safety in compliance with FAA regulations.
+3.	FAA part 107 exam preparation -- airspace regulations, sectional charts, etc.
 4.	Safety guidelines when flying drones. 
-5.	Learn to use DJI GS Pro for auto-pilot flying and collecting field data. 
-6.	Collecting field data and Ground Control Points (GCPs).
-7.	Use Esri Drone2Map to stitch and geo-referencing the drone images. 
-8.	Data management and cloud storage of drone imagery
-9.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index, and image classification. 
-
+5.	Pre-flight planning using DJI GS Pro for collecting field data. 
+6.	Collecting Ground Control Points (GCPs) using Esri Field Maps <span style="color:red"> (upcoming) </span>.
+7.	Real-time positional corrections using RTK <span style="color:red"> (upcoming) </span>.
+8.	Post-processing positional corrections using PPK <span style="color:red"> (upcoming) </span>.
+9.	Post-processing using photogrammetry software such as Esri Drone2Map (stitching and georeferencing).
+10.	Post-processing of LiDAR point clouds using DJI Terra <span style="color:red"> (upcoming) </span>.
+11.	Data management and cloud storage of drone imagery.
+12.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index, and image classification. 
 
 ![image](/Files/TrainingModules_whiteBG.jpg)
 
