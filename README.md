@@ -21,7 +21,7 @@ Unoccupied Aerial Vehicles (UAV), also known as small Unmanned Aerial Systems (s
 9.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index, and image classification. 
 
 
-![image](/Files/TrainingModules_whiteBG.png)
+![image](/Files/TrainingModules_whiteBG.jpg)
 
 The training program is divided into 5 training sections and one post-training self-study guide to prepare participants for the FAA Part 107 examination. This examination is necessary for commercial-based drone operators to conduct flights in the United States. 
 
