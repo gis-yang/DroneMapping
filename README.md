@@ -6,7 +6,7 @@ Maintained by Bo Yang and Henri Brillon
 
 This open-access drone mapping training course teaches the skills and knowledge required to produce maps with drones. All major steps are covered, including drone flight, mission planning, field data collection, post-processing using photogrammetry techniques, and geographical information system (GIS) analysis of the resulting products. Collection of high-precision ground control points (GCPs) using a GNSS receiver, as well as real-time kinematic (RTK) and post-process kinematic (PPK) corrections, is also covered. 
 
-Drones (also known as UAVs and UAS) provide high spatial resolution, temporal flexibility, and ability to repeat photogrammetry, they provide an advantage over other remote sensing approaches. Research applications include coastal mapping, habitat monitoring, fire behavior analysis, defensible space assessments and more. This training course allows research partners and broader communities to learn how to fly drones, and perform data processing.
+Drones (also known as UAVs and UAS) provide advantages over other remote sensing approaches with their high spatial resolution, temporal flexibility, and ability to repeat photogrammetry. Research applications include coastal mapping, habitat monitoring, fire behavior analysis, defensible space assessments and more. This training course allows research partners and broader communities to learn how to fly drones, and perform data processing.
 
  **Course Objectives**
  
@@ -16,17 +16,17 @@ Drones (also known as UAVs and UAS) provide high spatial resolution, temporal fl
 3.	FAA part 107 exam preparation -- airspace regulations, sectional charts, etc.
 4.	Safety guidelines when flying drones. 
 5.	Pre-flight planning using DJI GS Pro for collecting field data. 
-6.	Collecting Ground Control Points (GCPs) using Esri Field Maps <span style="color:red"> (upcoming) </span>.
-7.	Real-time positional corrections using RTK <span style="color:red"> (upcoming) </span>.
-8.	Post-processing positional corrections using PPK <span style="color:red"> (upcoming) </span>.
+6.	Collecting Ground Control Points (GCPs) using Esri Field Maps (upcoming).
+7.	Real-time positional corrections using RTK (upcoming).
+8.	Post-processing positional corrections using PPK (upcoming).
 9.	Post-processing using photogrammetry software such as Esri Drone2Map (stitching and georeferencing).
-10.	Post-processing of LiDAR point clouds using DJI Terra <span style="color:red"> (upcoming) </span>.
+10.	Post-processing of LiDAR point clouds using DJI Terra (upcoming).
 11.	Data management and cloud storage of drone imagery.
 12.	Basic GIS analysis on drone imagery, digitizing, multi-spectral band math, vegetation index, and image classification. 
 
 ![image](/Files/TrainingModules_whiteBG.jpg)
 
-The training program is divided into 5 training sections and one post-training self-study guide to prepare participants for the FAA Part 107 examination. This examination is necessary for commercial-based drone operators to conduct flights in the United States. 
+The training program is divided into five training sections and one post-training self-study guide to prepare participants for the FAA Part 107 examination. This examination is necessary for commercial-based drone operators to conduct flights in the United States. 
 
 # 1. Drone Basics
 
