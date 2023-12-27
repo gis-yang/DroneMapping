@@ -32,7 +32,7 @@ The training program is divided into five training sections and one post-trainin
 
 Before drone operation, it is essential to understand some basics of manipulation, assembly, setup software, and calibration. Here, we cover these elements using the DJI Phantom 4 Pro quadcopter as an example. This video lecture walks users through every step, from unboxing to software setup and safety requirements. Flight planning is covered in a later section.
 
-**Before getting started:** 
+### Before Drone Operation
 
 *	Read the [Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf) 
 *	Review the drone, its basic flight manipulation, rules and regulations for drone flights.
@@ -51,7 +51,7 @@ Before drone operation, it is essential to understand some basics of manipulatio
 
 Drone registration with the FAA is mandatory in the United States for drones weighing 0.55 pounds (250 grams) or more. Please visit the [FAA drone registration page](https://www.faa.gov/uas/getting_started/register_drone) for details.
 
-**IMPORTANT!** The drone industry is growing and changing fast, and regulations are often changed and updated. For example, since September 2023, all drones requiring registration must operate in accordance with the new [remote ID rule](https://www.faa.gov/uas/getting_started/remote_id). **For this reason, we strongly recommend that you check the rules regularly with the FAA. Do not rely solely on this guide to esure compliance.**
+**IMPORTANT!** The drone industry is growing and changing fast, and regulations are often changed and updated. For example, since September 2023, all drones requiring registration must operate in accordance with the new [remote ID rule](https://www.faa.gov/uas/getting_started/remote_id). **For this reason, we strongly recommend that you check the rules regularly with the FAA. Do not rely solely on this guide to ensure compliance.**
 
 Again, please visit the [FAA drone registration page](https://www.faa.gov/uas/getting_started/register_drone) for details.
  
@@ -83,24 +83,45 @@ Directions for drone registration with the FAA (last updated 12/27/2023):
 
 # 2. In-Flight Operation
 
-Following the overview of drone basics, there is a 1.5-hour manual flying session. Through this interactive exercise, participants gain experience in basic drone operations. 
+Following the overview of drone basics, we recommend a 1.5-hour manual flying session to learn how to control and manoeuver the drone. Through this interactive exercise, participants gain experience in basic drone operations. 
 
-* 	Remote pilot checks for safety equipment including gloves, eye protection, safety vests, radio, and life jackets if taking off from a boat
-* 	The flight is not permitted directly over non-participating people.   
-*	Because coastal mapping with drones often includes taking off and landing on a boat,  hand catching of the drone on a boat needs to be practiced for both takeoff and landing.
+### Pre-Flight Safety Check
+
+Every mission will have exposure to its own distinct set of hazards, so careful planning before drone operation is crucial for success. We encourage clear communication before each mission to ensure that every team member is aware of the operational plan and the hazards at hand.
+
+As a helpful starting point, this safety checklist includes some elements common to all drone missions. Please remember that this is only a starting point, and that each mission must be planned for individually to account for all hazards.
+
+* Remote pilot-in-command (PIC) checks for safety equipment (gloves, eye protection, safety vests, traffic cones, radios if necessary, life jackets if taking off from a boat, and any other necessary safety equipment).
+* Remote PIC ensures stable communication between the controller and tha aircraft.
+* Remote PIC checks the weather in advance of the mission **and** on the day of the mission. 
+* Remote PIC is responsible for checking airspace authorizations in compliance with FAA Part 107 regulations and requesting any approvals in advance if required. **Note that advance authorizations through LAANC sometimes take several days for approval.**
+* At all times, remote PIC is responsible for carrying out operations safely, and always makes the final decision on whether the mision will proceed.
+* Flight is not permitted directly over non-participating people.   
+*	Because coastal mapping with drones often includes taking off and landing on a boat, hand catching of the drone needs to be practiced for both takeoff and landing.
 *	Focus on maintaining visibility and line of sight with the drone and avoiding hazards.
 
-### Drone Manipulation
+### Drone Calibration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jpWw9_WZGHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Drone calibration is sometimes required to ensure correct compass operation. Follow the on-screen instructions in the DJI Go 4 app and watch the video below for more information on drone calibration.
+[(3/5) Calibrate the drone and setup the software](https://www.youtube.com/embed/jpWw9_WZGHU)
 
-Open training course for drone mapping: (3/5) Calibrate the drone and setup the software
+### Airspace Regulations 
 
-### Air Space Regulation
-* 	All drones are required to be registered with the FAA if they weigh more than 0.55 lbs (250 grams) and less than 55 lbs (25 kg). 
-* 	Maintain UAV within visual line of sight of the remote pilot. a) standard flight altitude (< 400 feet above ground level (AGL); b) minimum distance from clouds (> 500 feet below the cloud and 2,000 feet horizontally from the cloud); and c) maintaining a safe distance from bystanders.
-* 	The minimum distance of the UAS from clouds must be no less than 500 feet below the cloud and 2,000 feet horizontally from the cloud. 
-*	U.S. Part 107 (FAA sUAS Part 107) specifies regulations to fly a UAV in the National Airspace System (NAS). Jurisdictional differences across study sites affected some flight restrictions under FAA regulations. For sites within controlled airspace, Low Altitude Authorization and Notification Capability (LAANC) and Certificates of Authorization (COAs) needed to be considered and planned for well in advance of drone operations.
+Below is a non-exhaustive list of airspace regulations that must be complied with at all times during drone operation. Failure to comply with any of these regulations can impact flight safety, so it's imporatant to be aware of these. For a complete overview of the FAA's requirements, visit the [Part 107 regulations page](https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107).
+
+* Always avoid manned aircraft.
+* Never operate in a careless or reckless manner.
+* Keep your drone within sight. If you use First Person View or similar technology, you must have a visual observer always keep your drone within unaided sight (for example, no binoculars).
+* You cannot be a pilot or visual observer for more than one drone operation at a time.
+* Do not fly a drone over people unless they are directly participating in the operation.
+* Do not operate your drone from a moving aircraft.
+* Do not operate your drone from a moving vehicle unless you are flying your drone over a sparsely populated area and it does not involve the transportation of property for compensation or hire.
+* Maximum altitude is 400 feet above ground level (AGL) or 400 feet above a structure being surveyed.
+* Maximum flight speed is 100 mph.
+* Minimum weather visibility is three miles from your control station.
+* Waivers can be requested for operations beyond visual line of sight, during nighttime, and over people. You must be able to show that your operation will provide equivalent safety.
+* Drones must be registered with the FAA unless they weight 0.55 pounds (249 grams) or less.
+* You may operate in Class G airspace without air traffic control (ATC) authorization. Operations in Class B, C, D, and E require prior authorization. Request authorizations using the [Low Altitude Authorization and Notification Capability (LAANC)](https://www.faa.gov/uas/programs_partnerships/data_exchange).
 
 Note: There are similar regulations in Canada. All drones that weigh between 250 g and 25 kg must be registered with Transport Canada. FAA certification (U.S.) is not applicable in Canada, and drone pilots must follow the rules in the Canadian Aviation Regulations (CARs) Part IX—Remotely Piloted Aircraft Systems.
 
@@ -110,10 +131,9 @@ For more FAA regulation, please read [FAA remote pilot study guide](/Documents/r
 
 [FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
 
-
 # 3. Autonomous Mapping
 
-Autonomous mapping provides an advantage over manual flight operations by ensuring that data collection is efficient and replicable at each site. In this module we learn how to use autonomous functions to capture hundreds of images that were pre-programmed to be evenly distributed with nadir view over the mapping area.
+Autonomous mapping provides an advantage over manual flight operations by ensuring that data collection is efficient and replicable at each site. In this module, we learn how to use autonomous functions to capture hundreds of images that were pre-programmed to be evenly distributed over the mapping area.
 
 ![image](/Files/GSPro.png)
 
