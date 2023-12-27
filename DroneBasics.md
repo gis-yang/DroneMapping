@@ -12,8 +12,10 @@ Before drone operation, it is essential to understand some basics of manipulatio
 **(1/5) Drone unboxing and assembly**
 https://www.youtube.com/embed/4PYAk11Jio8
 
+
 **(2/5) How to setup the software for DJI Phantom 4**
 https://www.youtube.com/embed/EFAxI218N7s
+
 
 **Official DJI Calibration Tutorial**
 https://www.youtube.com/embed/2WltMwrWlyM
@@ -50,4 +52,5 @@ Directions for drone registration with the FAA (last updated 12/27/2023):
 **Module Materials:**
 
 [Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf)
+
 [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf)
