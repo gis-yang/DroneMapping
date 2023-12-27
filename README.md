@@ -4,7 +4,7 @@ Maintained by Bo Yang and Henri Brillon
 
 **Course description**
 
-This open-access drone mapping training course teaches the skills and knowledge required to produce maps with drones. All major steps are covered, including drone flight, mission planning, field data collection, post-processing using photogrammetry techniques, and geographical information system (GIS) analysis of the resulting products. Collection of high-precision ground control points (GCPs) using a GNSS receiver, as well as real-time kinematic (RTK) and post-process kinematic (PPK) corrections, is also covered.
+This open-access drone mapping training course teaches the skills and knowledge required to produce maps with drones. All major steps are covered, including drone flight, mission planning, field data collection, post-processing using photogrammetry techniques, and geographical information system (GIS) analysis of the resulting products. Collection of high-precision ground control points (GCPs) using a GNSS receiver, as well as real-time kinematic (RTK) and post-process kinematic (PPK) corrections, is also covered. 
 
 Drones (also known as UAVs and UAS) provide high spatial resolution, temporal flexibility, and ability to repeat photogrammetry, they provide an advantage over other remote sensing approaches. Research applications include coastal mapping, habitat monitoring, fire behavior analysis, defensible space assessments and more. This training course allows research partners and broader communities to learn how to fly drones, and perform data processing.
 
