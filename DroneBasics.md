@@ -35,7 +35,7 @@ Directions for drone registration with the FAA (last updated 12/27/2023):
 5.  Select Part 107; recreational registration is not appropriate for commercial or research purposes.
 6.  Fill in your personal information.
 7.  Under the Part 107 Dashboard, click "Manage Device Inventory" then "Add Device".
-8.  Fill out the remote ID information for your drone as illustrated. 
+8.  Fill out the remote ID information for your drone as illustrated - replace the asterisks with your Remote ID serial number. 
 
 ![image](/Files/remote-id-registration.png)
 
