@@ -9,17 +9,13 @@ Before drone operation, it is essential to understand some basics of manipulatio
 *	Read through the [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf) 
 *	Practice flying the drone, icluding the controls, manual drone operations, takeoff and landing, changing altitude, and adjusting camera and video settings
 
-**(1/5) Drone unboxing and assembly**
+**Tutorial Videos**
 
-https://www.youtube.com/embed/4PYAk11Jio8
+[(1/5) Drone unboxing and assembly](https://www.youtube.com/embed/4PYAk11Jio8)
 
-**(2/5) How to setup the software for DJI Phantom 4**
+[(2/5) How to setup the software for DJI Phantom 4](https://www.youtube.com/embed/EFAxI218N7s)
 
-https://www.youtube.com/embed/EFAxI218N7s
-
-**Official DJI Calibration Tutorial**
-
-https://www.youtube.com/embed/2WltMwrWlyM
+[Official DJI Calibration Tutorial](https://www.youtube.com/embed/2WltMwrWlyM)
 
 ### Registering your Drone
 
