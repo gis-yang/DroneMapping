@@ -39,7 +39,7 @@ Directions for drone registration with the FAA (last updated 12/27/2023):
 7.  Under the Part 107 Dashboard, click "Manage Device Inventory" then "Add Device".
 8.  Fill out the remote ID information for your drone as illustrated. 
 
-![image](/Files/FAARegistration.png)
+![image](/Files/remote-id-registration.png)
 
 9.  Click "Add Device".
 10.  You should now be able to check out and pay the $5 fee for drone registration.
