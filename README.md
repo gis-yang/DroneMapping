@@ -30,51 +30,50 @@ The training program is divided into five training sections and one post-trainin
 
 # 1. Drone Basics
 
-The first training module includes a tutorial to introduce basic manipulation, assembly, setup software, and calibration of the quadcopter drone. The DJI Phantom 4 Pro were used as an example. The training contents includes a lecture-based review of the drone, its basic flight manipulation, rules and regulations for drone flights. Through the lecture and tutorial, safe drone assembly techniques were reviewed as well as safety requirements. We covered pre-flight planning and in-flight precautions, including maintaining UAV within visual line of sight of the remote pilot.
+Before drone operation, it is essential to understand some basics of manipulation, assembly, setup software, and calibration. Here, we cover these elements using the DJI Phantom 4 Pro quadcopter as an example. This video lecture walks users through every step, from unboxing to software setup and safety requirements. Flight planning is covered in a later section.
 
-*	Read the [Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf) to learn basic manipulation, assembly, setup software, and calibration of the quadcopter drone.
+**Before getting started:** 
+
+*	Read the [Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf) 
 *	Review the drone, its basic flight manipulation, rules and regulations for drone flights.
-*	Read through the [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf) and participated in a hands-on tutorial setting up the drone and software environment for a flight. 	
-*	One-hour practice fly, get familiar with manual drone operations, including takeoff and landing, changing flight altitude, and adjusting drone camera/video settings
+*	Read through the [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf) 
+*	Practice flying the drone, icluding the controls, manual drone operations, takeoff and landing, changing altitude, and adjusting camera and video settings
 
+### Tutorial Videos
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4PYAk11Jio8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[(1/5) Drone unboxing and assembly](https://www.youtube.com/embed/4PYAk11Jio8)
 
-Open training course for drone mapping: (1/5) Drone unboxing and assemble
+[(2/5) How to setup the software for DJI Phantom 4](https://www.youtube.com/embed/EFAxI218N7s)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EFAxI218N7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Official DJI Calibration Tutorial](https://www.youtube.com/embed/2WltMwrWlyM)
 
-Open training course for drone mapping: (2/5) How to setup the software for DJI Phantom 4
+### Registering your Drone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2WltMwrWlyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Drone registration with the FAA is mandatory in the United States for drones weighing 0.55 pounds (250 grams) or more. Please visit the [FAA drone registration page](https://www.faa.gov/uas/getting_started/register_drone) for details.
 
-DJI official toturial of drone calibration
+**IMPORTANT!** The drone industry is growing and changing fast, and regulations are often changed and updated. For example, since September 2023, all drones requiring registration must operate in accordance with the new [remote ID rule](https://www.faa.gov/uas/getting_started/remote_id). **For this reason, we strongly recommend that you check the rules regularly with the FAA. Do not rely solely on this guide to esure compliance.**
 
-
-### Register your drone
-
-Register your drone to FAA is very important in the United States since FAA needs to identify a drone and use FAA registration number to seek information. 
+Again, please visit the [FAA drone registration page](https://www.faa.gov/uas/getting_started/register_drone) for details.
  
 “Failure to register with the FAA could result in one or a combination of the following: a civil penalty of up to $27,500; a criminal fine of up to $250,000; imprisonment for up to three years.” - FAA
 
+Directions for drone registration with the FAA (last updated 12/27/2023):
+1.	Visit the [FAA drone registration page](https://www.faa.gov/uas/getting_started/register_drone).
+2.	Create and verify an account.
+3.  Add a service, then under "Drone Owners and Pilots" click "Select Drone Owners and Pilots Service".
+4.  The new service now appears in your account. Select "Launch Drone Owners and Pilots Dashboard".
+5.  Select Part 107; recreational registration is not appropriate for commercial or research purposes.
+6.  Fill in your personal information.
+7.  Under the Part 107 Dashboard, click "Manage Device Inventory" then "Add Device".
+8.  Fill out the remote ID information for your drone as illustrated - the serial number is unique to each drone and can be found inside the DJI flight control app [(DJI Forum)](https://forum.dji.com/thread-299314-1-1.html). 
 
-Directions for Registering Drone with FAA:
-1.	Go to [https://faadronezone.faa.gov/#/](https://faadronezone.faa.gov/#/)
-2.	Click “Register” in the same row as “I fly under Part 107 or as a Public Aircraft.”
-3.	Enter information and click “Create Account.”
-4.	Verify your email address and log in
-5.	Make sure that you are in the “Part 107 Dashboard.”
-6.	Click “Manage sUAS Inventory.”
-7.	Click “Add UAS.”
-8.	Fill out the information
-9.	Enter your drone’s unique serial number, as found in the battery cavity of the drone: 
-10.	Go to “Shopping Cart” and click “Checkout.”
-11.	Follow prompts for payment
-12.	Navigate back to your “FAA Part 107 Dashboard” and click “Manage sUAS Inventory”
-13.	Find the drone that you registered and find the “Registration” column. 
-14.	Mark your drone with the registration number according to the following FAA 
+![image](/Files/remote-id-registration.png)
 
-![image](/Files/FAARegistration.png)
+9.  Click "Add Device".
+10.  You should now be able to check out and pay the $5 fee for drone registration.
+11.	Navigate back to your “FAA Part 107 Dashboard” and click “Manage sUAS Inventory”
+12.	Find the drone that you registered and find the “Registration” column. 
+13.	Mark your drone with the registration number according to the following FAA 
 
 **Module Materials:**
 
@@ -82,10 +81,9 @@ Directions for Registering Drone with FAA:
 
 [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf)
 
-
 # 2. In-Flight Operation
 
-Following the overview of drone basics, there is a 1.5-hour manual flying session. Through this interactive exercise, participants gained experience in basic drone operations. 
+Following the overview of drone basics, there is a 1.5-hour manual flying session. Through this interactive exercise, participants gain experience in basic drone operations. 
 
 * 	Remote pilot checks for safety equipment including gloves, eye protection, safety vests, radio, and life jackets if taking off from a boat
 * 	The flight is not permitted directly over non-participating people.   
