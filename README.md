@@ -2,7 +2,7 @@
 
 Maintained by Bo Yang and Henri Brillon
 
-**Course description**
+### Course description
 
 This open-access drone mapping training course teaches the skills and knowledge required to produce maps with drones. All major steps are covered, including drone flight, mission planning, field data collection, post-processing using photogrammetry techniques, and geographical information system (GIS) analysis of the resulting products. Collection of high-precision ground control points (GCPs) using a GNSS receiver, as well as real-time kinematic (RTK) and post-process kinematic (PPK) corrections, is also covered. 
 
@@ -133,21 +133,23 @@ For more FAA regulation, please read [FAA remote pilot study guide](/Documents/r
 
 # 3. Autonomous Mapping
 
-Autonomous mapping provides an advantage over manual flight operations by ensuring that data collection is efficient and replicable at each site. In this module, we learn how to use autonomous functions to capture hundreds of images that were pre-programmed to be evenly distributed over the mapping area.
+Autonomous mapping provides an advantage over manual flight operations by ensuring that data collection is efficient and replicable at each site. In this module, we learn how to use autonomous functions to capture hundreds of images that were pre-programmed to be evenly distributed over the mapping area, as illustrated below.
 
-![image](/Files/GSPro.png)
+![image](/Files/GSPro_flightpath.jpg)
 
 *	Read the [CSGIS_Preflight_Planning_Document] (/Documents/CSGIS_Preflight_Planning_Document.pdf) in the course material, learn to use DJI GS Pro app for auto-pilot and safety guidelines. 
 *	Learn how to plan and create autonomous flights with different mapping parameters.
 *	We recommend UAV flight path set to be parallel with the long side of the mapping area in order to minimize the UAV turning points and maximize battery efficiency.
-*	Rain, wind, and fog all frequently occur in coastal areas and influence drone flights. To address that, flights need to be conducted with wind speeds less than 10m/s, no heavy rain and no fog. FAA Part 107 regulations state that the UAV should not be flown in fog or other situations where the operator loses line of sight.
+*	Rain, wind, and fog all frequently occur in coastal areas and influence drone flights. To address that, flights need to be conducted with wind speeds less than 10 m/s, no heavy rain and no fog. FAA Part 107 regulations state that the UAV should not be flown in fog or other situations where the operator loses line of sight.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n2iIS3-4z-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Open training course for drone mapping: (4/5) Create drone mapping task using DJI GS Pro
+[(4/5) Create drone mapping task using DJI GS Pro](https://www.youtube.com/embed/n2iIS3-4z-8)
 
 ### Mapping planning & settings
 
-Participants learned how to plan and create a new flight area using autonomous flights with different mapping parameters. Considerations for autonomous parameters included: 
+Participants learn how to plan and create a new flight area using autonomous flights with different mapping parameters. Considerations for autonomous parameters include: 
+
+* Number of available batteries, and size of the study area;
+* Composition of the study area (i.e. the more homogeneous the study area, the more front and side overlap is required to obtain good results)
 *	Tradeoffs between spatial coverage and spatial resolution (e.g., if drones fly at a higher elevation, the image coverage is larger, but the spatial resolution is coarser and vice versa); 
 *	Appropriate settings of the camera model for a proper shooting angle to minimize sun glint; 
 *	How flight direction and capture mode vary depending on the shape of the site and the wind directions; 
@@ -155,11 +157,15 @@ Participants learned how to plan and create a new flight area using autonomous f
 
 ![image](/Files/Table1.png) 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Op4rjLfgmpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* Tradeoffs between using nadir (straight down) shooting angle with a 2D template in GS Pro and shooting at an angle with a 3D template in GS Pro
 
-Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS Pro for autonomous mapping
+![image](Files/nadir-vs-angled.jpg)
 
-### Maping planning 
+Once you have reviewed and understood the various automated flight parameters, watch the video on unlocking flight zones and using GS Pro for autonomous mapping linked below.
+
+[(5/5) Unlock fly zone and Using DJI GS Pro for autonomous mapping](https://www.youtube.com/embed/Op4rjLfgmpA)
+
+### Mapping Planning 
 
 **Module Materials:**
 
@@ -167,49 +173,49 @@ Open training course for drone mapping: (5/5) Unlock fly zone and Using DJI GS P
 
 # 4. Image Processing
 
-The general steps reviewed in this course included: image stitching, geo-referencing, derivation of orthomosaics and elevation models and image correction. Also, we will review the importance of visually inspecting all drone images to rule out low-quality images (e.g., blurry or oblique) and minimize measurement error in the final data products. This module will also cover the use of Esri Drone2Map software to stitch together hundreds of separate images collected by drones in the field and geo-register them into orthomosaics.
+This section covers image stitching, geo-referencing, derivation of orthomosaics and elevation models, and image correction. Also, we will review the importance of visually inspecting all drone images to rule out low-quality images (e.g., blurry or oblique) and minimize measurement error in the final data products. This module will also cover the use of Esri Drone2Map software to stitch together hundreds of separate images collected by drones in the field and geo-register them into orthomosaics.
 
 ![image](/Files/FlyPath.png)
 
 ### Image stitching and GIS 
 
+Photogrammetry post-processing is the use of structure-from-motion algorithms by a computer program to find matches between neighboring images, and stitch them together into a fully nadir orthomosaic. A 3D point clound can also be generated, resulting in a digital surface model (DSM) and corresponding elevation data. This course uses Esri's Drone2Map to achieve this, but it's worth noting that other programs also offer these capabilities, including Pix4D, Agisoft Metashape, WebODM and more.
 
-*	Learn the [CSGIS_Drone2map User Guide](/Documents/CSGIS_Drone2map_User_Guide.pdf).
-*	Findable, Accessible, Interoperable and Reusable (FAIR) science data principles.	(Wilkinson et al., 2016), 
+*	Read the [CSGIS_Drone2map User Guide](/Documents/CSGIS_Drone2map_User_Guide.pdf).
+*	[The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618)	(Wilkinson et al., 2016)
+
 Note: Drone2Map software package could be downloaded from the course material resources folder. Sample data are provided in the course folder.
 
 **Geo-referencing**
 
-One of the biggest challenges of coastal drone mapping is that a relatively homogeneous water surface leads to difficulties in registering images because the image mosaic algorithm usually needs some target on the image as a matching point to stitch together images with overlaying parts.
+One of the biggest challenges of coastal and forest drone mapping is that a relatively homogeneous surface leads to difficulties in registering images because the image mosaic algorithm usually needs some target on the image as a matching point to stitch together images with overlaying parts.
 
-For points on land, we used obvious objects, such as red buckets that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP). It is recommended to collect 10 points at each monitoring site. On land, use colorful objects, such as red buckets, that could be easily identified in the drone image. Over water, use light-colored buoys with anchors fixed on the water. When collecting GCP points, we recommended starting the GPS and wait until there were more than 12 satellites available for calculating the position. For each GCP location, we encourage to wait at least 90 seconds until the GPS signal became stable. Usually, GPS accuracy can reach 30-50 cm under cloudless weather conditions. For each GCP location, collecte 20 repeated measurements and use the average value as the input coordinates for geo-referencing.
-
+For points on land, we used obvious objects, such as red buckets or orange traffic cones that could be easily identified in the drone image. For image referencing over the water, we used light-colored buoys with anchors fixed on the water surface to serve as the Ground Control Point (GCP). It is recommended to collect 10 points at each monitoring site. On land, use colorful objects, such as red buckets, that could be easily identified in the drone image. Over water, use light-colored buoys with anchors fixed on the water. When collecting GCPs, we recommended starting the GPS and waiting until there are more than 12 satellites available for calculating the position. For each GCP location, we encourage to wait at least 90 seconds until the GPS signal became stable. Usually, GPS accuracy can reach 30-50 cm under cloudless weather conditions. For each GCP location, collect 20 repeated measurements and use the average value as the input coordinates for geo-referencing.
 
 ### Orthomosaic & Elevation Data
-
 
 *	Learn the [ArcGIS based Image Analyses Manual](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
 *	GIS analysis includes: geodatabase management, digitizing raster imagery, pixel/object based classification methods, band math, and calculations of vegetation indexes (e.g., Green Leaf Index and NDVI). The canopy information, such as Leaf Area Index (LAI) can be derived from drone imagery as well (Roth et al 2018). 
 
 Note: ArcGIS and Drone2Map software packages could be downloaded from [Esri](https://www.esri.com/en-us/home).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yaX336s4DjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Furthermore, drone mapping can generate additional elevation data products, such as Digital TerrainModels (DTM) and Digital Surface Models (DSM). Such products are useful for topography analysis and 3D visualization. The video below shows the high-resolution orthomosaic imagery combined with the high-resolution Digital Elevation Model to form a 3D visualization.
 
-UAV/drone high-resolution 3D fly-through video for Bodega Marine Laboratory (BML)
-
-Furthermore, drone mapping can generate additional elevation data products, such as Digital TerrainModels (DTM) and Digital Surface Models (DSM). Such products are useful for topography analysis and 3D visualization. Above video shows the high-resolution orthomosaic imagery combined with the high-resolution Digital Elevation Model can be further processed to a 3D visualization.
+Video: [UAV/drone high-resolution 3D fly-through video for Bodega Marine Laboratory (BML)](https://www.youtube.com/embed/yaX336s4DjE)
 
 **Module Materials:**
 
- [Processing the drone imagery to mapping products](/Documents/CSGIS_Drone2map_User_Guide.pdf)
+[Processing the drone imagery to mapping products](/Documents/CSGIS_Drone2map_User_Guide.pdf)
 
- [Data analysis in Geographical Information Science (GIS)](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
+[Data analysis in Geographical Information Science (GIS)](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
 
 # 5. Post-training Self-study
 
 ### Self-study for FAA UAS Exam
 
-10-hour self-paced study guide to assist partners with the Federal Aviation Administration (FAA) Part 107 examination. In order to fly drones for research purposes under the FAA’s Small UAS Rule (Part 107) in the U.S., one must obtain a Remote Pilot Certificate from the FAA. This certificate demonstrates that the remote pilot understands the regulations, operating requirements, and procedures for safely flying drones.
+To obtain Part 107 certification from the FAA, pilots must successfully complete a theoretical exam in-person at an FAA approved testing center. The exam is 60 multiple-choice questions, and covers topics including but not limited to airspace regulations, sectional chart reading, meteorological knowledge, aircraft safety, and pilot responsibility. The current cost is $175, and the passing grade is 70%, or 42 correct answers out of 60. (Last updated 12/28/2023)
+
+The Part 107 exam requires specialized knowledge, and we recommend dedicating at least 10 hours to self-paced study to maximize chances of obtaining a passing grade. In order to fly drones for research purposes under the FAA’s Small UAS Rule (Part 107) in the U.S., one must obtain a Remote Pilot Certificate from the FAA. This certificate demonstrates that the remote pilot understands the regulations, operating requirements, and procedures for safely flying drones.
 
 **Module Materials:**
 
@@ -225,8 +231,10 @@ Above training document reviewed content from the course modules as well as addi
 *	Charge both controller and drone batteries. Each battery takes about 1 hour and 20 minutes to charge to full, the controller needs about 3 hours. There are two charging ports on the original charger, one for the controller and one for battery.
 *	There is a 32gb sd card coming with the drone. Make sure to clear it before going to the field. If using a computer to format, use the fat32.
 *	Take a test fly to confirm everything is good and the drone can take off. If the drone is good to be taken off, that will save lots of the time when doing the mapping in the field.
+*	Check weather before heading out to ensure no rain, high wind or fog is forecasted.
+*	In the field, check for an appropriate takeoff and landing area with line of sight to the entire study area.
 *	Check everything is good using DJI GO 4 before use GS pro, then go to GS Pro and click to fly. The take-off location is better to be flat, dry and close to the mapping area as much as possible to save the battery. 
-*	When the drone fly to the area and start mapping, make sure turn on the sound of the ipad and hear the shutter sounds every 2-3s. Sometimes if accidentally clicked video shooting at some point before the mapping, the drone will pretend to do the mapping, but keep shooting video without the notice.
+*	When the drone flies to the area and starts mapping, turn on the sound of the ipad and hear the shutter sounds every 2-3s. If there is no sound, you may have accidentally clicked video shooting before the mapping, and your data will be unusable.
 
 ## Resources:
 
