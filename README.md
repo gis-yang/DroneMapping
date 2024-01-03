@@ -41,9 +41,9 @@ Before drone operation, it is essential to understand some basics of manipulatio
 
 ### Tutorial Videos
 
-[(1/5) Drone unboxing and assembly](https://www.youtube.com/embed/4PYAk11Jio8)
+[(1/5) DJI Phantom 4 Unboxing & Assembly](https://www.youtube.com/embed/4PYAk11Jio8)
 
-[(2/5) How to setup the software for DJI Phantom 4](https://www.youtube.com/embed/EFAxI218N7s)
+[(2/5) DJI Phantom 4 Software Setup](https://www.youtube.com/embed/EFAxI218N7s)
 
 [Official DJI Calibration Tutorial](https://www.youtube.com/embed/2WltMwrWlyM)
 
@@ -103,7 +103,8 @@ As a helpful starting point, this safety checklist includes some elements common
 ### Drone Calibration
 
 Drone calibration is sometimes required to ensure correct compass operation. Follow the on-screen instructions in the DJI Go 4 app and watch the video below for more information on drone calibration.
-[(3/5) Calibrate the drone and setup the software](https://www.youtube.com/embed/jpWw9_WZGHU)
+
+[(3/5) Drone Calibration & Software Setup](https://www.youtube.com/embed/jpWw9_WZGHU)
 
 ### Airspace Regulations 
 
@@ -163,7 +164,7 @@ Participants learn how to plan and create a new flight area using autonomous fli
 
 Once you have reviewed and understood the various automated flight parameters, watch the video on unlocking flight zones and using GS Pro for autonomous mapping linked below.
 
-[(5/5) Unlock fly zone and Using DJI GS Pro for autonomous mapping](https://www.youtube.com/embed/Op4rjLfgmpA)
+[(5/5) Unlocking No-Fly Zones and Using DJI GS Pro for Autonomous Mapping](https://www.youtube.com/embed/Op4rjLfgmpA)
 
 ### Mapping Planning 
 
