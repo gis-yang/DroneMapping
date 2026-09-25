@@ -2,6 +2,8 @@
 
 Maintained by Bo Yang and Henri Brillon
 
+**View the course online: https://geofly.io/DroneMapping/**
+
 ### Course Description
 
 This open-access course introduces the complete drone mapping workflow for coastal management, habitat monitoring, and applied geospatial research. Participants learn how to plan safe missions, collect field imagery, document ground control, process imagery into mapping products, and analyze the resulting data in a geographic information system (GIS).
@@ -23,7 +25,7 @@ The training is organized into five instructional modules and a self-study secti
 9. Manage drone imagery and derived data using reproducible file organization and backup practices.
 10. Conduct GIS analysis on drone-derived products, including digitizing, vegetation indices, band math, and image classification.
 
-![image](/Files/TrainingModules_whiteBG.jpg)
+![image](Files/TrainingModules_whiteBG.jpg)
 
 The modules are designed to support both classroom instruction and field-based training. Research and professional drone operations in the United States generally require compliance with FAA Part 107 unless a different legal operating framework applies.
 
@@ -33,7 +35,7 @@ Before operating a drone, participants should understand the aircraft, controlle
 
 ### Before Drone Operation
 
-* Read the [Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf).
+* Read the [Phantom 4 manual](Documents/Phantom_4_User_Manual_v1.6.pdf).
 * Review basic controls, aircraft status indicators, battery management, camera settings, and emergency procedures.
 * Read the [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf).
 * Practice manual flight skills, including takeoff, landing, altitude changes, positioning, camera control, and safe return-to-home procedures.
@@ -63,11 +65,11 @@ Suggested registration workflow:
 7. Label the aircraft with the FAA registration number before flight.
 8. Keep a paper or digital copy of the registration certificate available during operations.
 
-![image](/Files/remote-id-registration.png)
+![image](Files/remote-id-registration.png)
 
 **Module Materials:**
 
-[Phantom 4 manual](/Documents/Phantom_4_User_Manual_v1.6.pdf)
+[Phantom 4 manual](Documents/Phantom_4_User_Manual_v1.6.pdf)
 
 [operations manual and safety guidelines](Documents/CSGIS_Preflight_Planning_and_Safety.pdf)
 
@@ -119,19 +121,19 @@ For quick airspace awareness, the FAA now lists multiple approved [B4UFLY deskto
 
 Note: Regulations differ by country. In Canada, Transport Canada rules apply to remotely piloted aircraft systems; FAA certification is not a substitute for Canadian authorization.
 
-For more FAA regulation, please read [FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
+For more FAA regulation, please read [FAA remote pilot study guide](Documents/remote_pilot_study_guide.pdf)
 
 **Module Materials:**
 
-[FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
+[FAA remote pilot study guide](Documents/remote_pilot_study_guide.pdf)
 
 # 3. Autonomous Mapping
 
 Autonomous mapping improves field efficiency and repeatability by flying a planned route and collecting images with consistent overlap. In this module, participants learn how to design mapping missions that balance spatial resolution, coverage, battery limitations, wind, sun angle, site geometry, and safety.
 
-![image](/Files/GSPro_flightpath.jpg)
+![image](Files/GSPro_flightpath.jpg)
 
-* Read the [CSGIS Preflight Planning Document](/Documents/CSGIS_Preflight_Planning_Document.pdf) and review autopilot and safety procedures.
+* Read the [CSGIS Preflight Planning Document](Documents/CSGIS_Preflight_Planning_Document.pdf) and review autopilot and safety procedures.
 * Plan autonomous flights using mission parameters appropriate for the site and research objective.
 * Align flight lines with the long axis of the mapping area when practical to reduce turns and improve battery efficiency.
 * Avoid rain, fog, low visibility, and wind conditions that exceed aircraft, site, or pilot limits. Coastal missions require conservative weather decisions because wind and visibility can change quickly.
@@ -149,7 +151,7 @@ Participants learn how to create a flight area and adjust mapping parameters. Ke
 * Flight direction relative to site geometry, wind direction, and takeoff location.
 * Frontlap and sidelap settings, flight time, and battery reserve.
 
-![image](/Files/Table1.png) 
+![image](Files/Table1.png) 
 
 * Tradeoffs between nadir imagery for 2D orthomosaics and oblique imagery for 3D reconstruction.
 
@@ -159,17 +161,15 @@ After reviewing the mapping parameters, watch the video on unlocking flight zone
 
 [(5/5) Unlocking No-Fly Zones and Using DJI GS Pro for Autonomous Mapping](https://www.youtube.com/embed/Op4rjLfgmpA)
 
-### Mapping Planning 
-
 **Module Materials:**
 
-[CSGIS_Preflight_Planning_Document](/Documents/CSGIS_Preflight_Planning_Document.pdf)
+[CSGIS_Preflight_Planning_Document](Documents/CSGIS_Preflight_Planning_Document.pdf)
 
 # 4. Image Processing
 
 This section covers image quality control, photogrammetric processing, georeferencing, orthomosaic generation, surface model creation, and GIS analysis. Before processing, inspect all images and remove data that are blurry, overexposed, strongly oblique when a nadir mission was intended, or otherwise unsuitable for mapping. Quality control at this stage reduces error in the final products.
 
-![image](/Files/FlyPath.png)
+![image](Files/FlyPath.png)
 
 ### Image stitching and GIS 
 
@@ -177,7 +177,7 @@ Photogrammetry software uses structure-from-motion and multi-view stereo methods
 
 This course uses Esri's Drone2Map as the primary teaching platform. Other commonly used photogrammetry tools include Pix4Dmapper, Agisoft Metashape, OpenDroneMap/WebODM, and related cloud or desktop reality mapping platforms. Software choice should depend on project scale, licensing, processing resources, accuracy requirements, and integration with GIS workflows.
 
-* Read the [CSGIS Drone2Map User Guide](/Documents/CSGIS_Drone2map_User_Guide.pdf).
+* Read the [CSGIS Drone2Map User Guide](Documents/CSGIS_Drone2map_User_Guide.pdf).
 * [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618) (Wilkinson et al., 2016)
 
 Note: Sample data are provided in the course folder. Participants should use licensed software available through their institution or approved project resources.
@@ -192,7 +192,7 @@ When collecting GCPs, allow the GNSS receiver to stabilize, document the coordin
 
 ### Orthomosaic & Elevation Data
 
-* Learn the [ArcGIS-based Image Analysis Manual](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
+* Learn the [ArcGIS-based Image Analysis Manual](Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
 * GIS analysis includes geodatabase management, digitizing, raster analysis, pixel-based and object-based classification, band math, vegetation indices such as Green Leaf Index and NDVI, and accuracy assessment.
 
 Note: ArcGIS and Drone2Map software are available from [Esri](https://www.esri.com/en-us/home), subject to institutional licensing.
@@ -203,9 +203,9 @@ Video: [UAV/drone high-resolution 3D fly-through video for Bodega Marine Laborat
 
 **Module Materials:**
 
-[Processing the drone imagery to mapping products](/Documents/CSGIS_Drone2map_User_Guide.pdf)
+[Processing the drone imagery to mapping products](Documents/CSGIS_Drone2map_User_Guide.pdf)
 
-[Data analysis in Geographical Information Science (GIS)](/Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
+[Data analysis in Geographical Information Science (GIS)](Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf)
 
 # 5. Post-training Self-study
 
@@ -219,9 +219,9 @@ Part 107 preparation requires focused study. We recommend reviewing the FAA Remo
 
 **Module Materials:**
 
-[FAA remote pilot study guide](/Documents/remote_pilot_study_guide.pdf)
+[FAA remote pilot study guide](Documents/remote_pilot_study_guide.pdf)
 
-[Self-study for FAA part 107 exam](/Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
+[Self-study for FAA part 107 exam](Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf)
 
 The self-study document reviews course content and additional topics for the knowledge test, including airspace concepts, weather sources, radio communication, sectional charts, loading and performance, and sample questions.
 

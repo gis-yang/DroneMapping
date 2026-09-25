@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drone Mapping Course | GeoFly Lab</title>
+    <meta name="description" content="A free, self-paced course from GeoFly Lab at UC Santa Cruz covering the drone mapping workflow: safe flight operations, FAA Part 107 preparation, mission planning, ground control, image processing, and GIS analysis.">
+    <meta name="author" content="GeoFly Lab">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Drone Mapping Course | GeoFly Lab">
+    <meta property="og:description" content="A free, self-paced introduction to the drone mapping workflow, from safe flight operations to GIS analysis.">
+    <meta property="og:image" content="https://geofly.io/DroneMapping/Files/GSPro_flightpath.jpg">
+    <link rel="icon" type="image/png" href="https://geofly.io/static/picture/geoflylab_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+    <link rel="stylesheet" href="assets/course.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="wrap">
+        <a class="brand" href="https://geofly.io/">
+            <span class="brand-name">GeoFly Lab</span>
+            <span class="brand-sub">Environmental Studies &middot; University of California, Santa Cruz</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav class="site-nav" id="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="https://geofly.io/">Home</a></li>
+                <li><a href="https://geofly.io/project.html" aria-current="page">Research</a></li>
+                <li><a href="https://geofly.io/publication.html">Publications</a></li>
+                <li><a href="https://geofly.io/facility.html">Facilities</a></li>
+                <li><a href="https://geofly.io/post.html">News</a></li>
+                <li><a href="https://geofly.io/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+<div class="wrap">
+    <div class="page-head">
+        <p class="crumbs"><a href="https://geofly.io/project.html">Research</a> / <a href="https://geofly.io/UAV_edu.html">Geospatial Education</a></p>
+        <h1>Drone Mapping Course</h1>
+        <p class="lede">A free, self-paced introduction to the complete drone mapping workflow, from safe flight operations and mission planning to image processing and GIS analysis.</p>
+        <p class="course-meta">Maintained by Bo Yang and Henri Brillon, GeoFly Lab &middot; Regulatory information last reviewed September 2026</p>
+    </div>
+
+    <div class="course">
+        <nav class="toc" aria-label="Course contents">
+            <h2>Contents</h2>
+            <ol>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#module-1">1. Drone basics</a></li>
+                <li class="sub"><a href="#registration">Registering your drone</a></li>
+                <li><a href="#module-2">2. In-flight operation</a></li>
+                <li class="sub"><a href="#regulations">Part 107 rules</a></li>
+                <li><a href="#module-3">3. Autonomous mapping</a></li>
+                <li class="sub"><a href="#gsd">Ground sampling distance</a></li>
+                <li><a href="#module-4">4. Image processing and GIS</a></li>
+                <li class="sub"><a href="#data-management">Data management</a></li>
+                <li><a href="#module-5">5. FAA Part 107 self-study</a></li>
+                <li><a href="#checklist">Before-flight checklist</a></li>
+                <li><a href="#glossary">Glossary</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#cite">Cite this course</a></li>
+            </ol>
+        </nav>
+
+        <div class="course-body">
+
+<section id="overview">
+    <h2 class="first">Overview</h2>
+    <p>This open-access course introduces the drone mapping workflow used in coastal management, habitat monitoring, and applied geospatial research. Participants learn how to plan safe missions, collect field imagery, document ground control, process imagery into mapping products, and analyze the results in a geographic information system (GIS).</p>
+    <p>The course draws on field methods used by GeoFly Lab and its collaborators in coastal, ecological, wildfire, and community resilience projects. Drones, also called uncrewed aircraft systems (UAS), provide high spatial resolution, flexible timing, and repeatable data collection across sites, which makes them valuable for seagrass monitoring, fire behavior and post-burn assessment, defensible-space evaluation, and many other environmental applications.</p>
+
+    <dl class="facts">
+        <div><dt>Format</dt><dd>Self-paced, open access, free</dd></div>
+        <div><dt>Structure</dt><dd>Five modules with downloadable guides and slides</dd></div>
+        <div><dt>Audience</dt><dd>Students, researchers, educators, and project partners</dd></div>
+        <div><dt>Prerequisites</dt><dd>None; basic GIS familiarity is helpful</dd></div>
+        <div><dt>Example aircraft</dt><dd>DJI Phantom 4 Pro (principles apply to other platforms)</dd></div>
+        <div><dt>Software</dt><dd>DJI GO 4, DJI GS Pro, ArcGIS Drone2Map, ArcGIS Pro</dd></div>
+    </dl>
+
+    <h3>What you will learn</h3>
+    <ol class="objectives">
+        <li>Drone hardware, setup, calibration, maintenance, and field readiness.</li>
+        <li>Manual flight: takeoff, landing, camera control, and emergency procedures.</li>
+        <li>Safe mission planning under FAA rules, airspace restrictions, weather limits, and site hazards.</li>
+        <li>Preparation for the FAA Part 107 Remote Pilot knowledge test.</li>
+        <li>Autonomous mapping missions: altitude, overlap, flight direction, batteries, and camera settings.</li>
+        <li>Collecting and documenting ground control points (GCPs).</li>
+        <li>RTK and PPK workflows for better positional accuracy.</li>
+        <li>Processing imagery into orthomosaics, surface models, and point clouds.</li>
+        <li>Organizing and backing up imagery and derived data.</li>
+        <li>GIS analysis of drone products: digitizing, vegetation indices, band math, and classification.</li>
+    </ol>
+
+    <h3>Course modules</h3>
+    <ol class="modules">
+        <li><div><a href="#module-1">Drone basics</a><p>Aircraft, controller, batteries, software setup, calibration, and FAA registration.</p></div></li>
+        <li><div><a href="#module-2">In-flight operation</a><p>Manual flight practice, pre-flight safety briefing, and Part 107 operating rules.</p></div></li>
+        <li><div><a href="#module-3">Autonomous mapping</a><p>Mission design, overlap, ground sampling distance, and flight planning in DJI GS Pro.</p></div></li>
+        <li><div><a href="#module-4">Image processing and GIS</a><p>Quality control, photogrammetry, georeferencing, data management, and GIS analysis.</p></div></li>
+        <li><div><a href="#module-5">FAA Part 107 self-study</a><p>Eligibility, knowledge test topics, recurrent training, and study materials.</p></div></li>
+    </ol>
+
+    <div class="callout">
+        <span class="callout-title">A note on regulations</span>
+        <p>Research, teaching, and professional drone operations in the United States generally fall under FAA Part 107. Rules and FAA systems change over time, so always confirm current requirements on official FAA pages before flying. This course is a learning resource, not legal guidance.</p>
+    </div>
+</section>
+
+<section id="module-1">
+    <h2><span class="module-num">Module 1</span>Drone basics</h2>
+    <p>Before operating a drone, participants should understand the aircraft, controller, batteries, sensors, software, and calibration procedures. This module uses the DJI Phantom 4 Pro as its example, but the same field-readiness principles apply to other mapping platforms. Flight planning and autonomous mapping are covered in later modules.</p>
+
+    <h3>Before your first flight</h3>
+    <ul>
+        <li>Read the <a href="Documents/Phantom_4_User_Manual_v1.6.pdf">Phantom 4 user manual</a>.</li>
+        <li>Review the basic controls, aircraft status indicators, battery care, camera settings, and emergency procedures.</li>
+        <li>Read the <a href="Documents/CSGIS_Preflight_Planning_and_Safety.pdf">operations manual and safety guidelines</a>.</li>
+        <li>Practice manual flight skills: takeoff, landing, altitude changes, positioning, camera control, and return-to-home.</li>
+    </ul>
+
+    <h3>Tutorial video</h3>
+    <div class="videos one">
+        <!-- Video unavailable on YouTube (private or removed), hidden until re-uploaded: https://www.youtube.com/watch?v=4PYAk11Jio8 "Video 1 of 5: DJI Phantom 4 unboxing and assembly" -->
+        <!-- Video unavailable on YouTube (private or removed), hidden until re-uploaded: https://www.youtube.com/watch?v=EFAxI218N7s "Video 2 of 5: DJI Phantom 4 software setup" -->
+        <figure class="video">
+            <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/2WltMwrWlyM" title="Official DJI calibration tutorial" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <figcaption>Official DJI calibration tutorial</figcaption>
+        </figure>
+    </div>
+
+    <h3 id="registration">Registering your drone</h3>
+    <p>In the United States, drones are registered through <a href="https://faadronezone.faa.gov/">FAA DroneZone</a>. All drones must be registered unless they weigh 0.55 pounds (250 grams) or less and are flown only under the Exception for Limited Recreational Operations. Research, teaching, and professional mapping flights should be registered and flown under Part 107; a drone registered under the recreational exception cannot be flown under Part 107.</p>
+    <div class="callout">
+        <span class="callout-title">Current FAA requirements (reviewed September 2026)</span>
+        <p>Part 107 registration costs $5 per drone and is valid for three years. Every drone that is registered, or required to be registered, must comply with <a href="https://www.faa.gov/uas/getting_started/remote_id">Remote ID</a>. Label each drone with its registration number before flight, and carry the registration certificate (paper or digital) during operations.</p>
+    </div>
+    <p>Suggested registration steps:</p>
+    <ol>
+        <li>Visit the <a href="https://www.faa.gov/uas/getting_started/register_drone">FAA drone registration page</a> and open FAA DroneZone.</li>
+        <li>Create or sign in to your FAA account.</li>
+        <li>Select the drone owner and pilot service.</li>
+        <li>Choose Part 107 as the operating category for research, teaching, or professional work.</li>
+        <li>Enter the owner, aircraft make and model, and Remote ID serial number. DJI aircraft show the serial number in the flight app.</li>
+        <li>Pay the registration fee and save the registration certificate.</li>
+        <li>Label the aircraft with the FAA registration number before flight.</li>
+        <li>Keep a copy of the certificate available during every operation.</li>
+    </ol>
+    <figure>
+        <img src="Files/remote-id-registration.png" alt="FAA DroneZone form for adding a drone with its Remote ID serial number" loading="lazy">
+        <figcaption>Adding a drone and its Remote ID serial number in FAA DroneZone.</figcaption>
+    </figure>
+
+    <div class="materials">
+        <h3>Module materials</h3>
+        <ul>
+            <li><a href="Documents/Phantom_4_User_Manual_v1.6.pdf">Phantom 4 user manual (v1.6)</a><span class="size">PDF, 24 MB</span></li>
+            <li><a href="Documents/CSGIS_Preflight_Planning_and_Safety.pdf">Operations manual and safety guidelines</a><span class="size">PDF, 0.9 MB</span></li>
+        </ul>
+    </div>
+</section>
+
+<section id="module-2">
+    <h2><span class="module-num">Module 2</span>In-flight operation</h2>
+    <p>After reviewing the basics, we recommend a 1.5-hour manual flight session before any autonomous mapping mission. Practice takeoff, landing, aircraft orientation, altitude control, camera operation, emergency stops, and return-to-home behavior in an open, low-risk area.</p>
+
+    <h3>Pre-flight safety briefing</h3>
+    <p>Every mission has site-specific hazards, so careful planning is essential. Before launch, the remote pilot in command (PIC) should brief the team on the mission objective, airspace status, weather, takeoff and landing area, emergency procedures, communication plan, and each person's role. The list below covers elements common to most missions; plan each mission individually for its own hazards.</p>
+    <ul>
+        <li>Check the aircraft, controller, propellers, batteries, memory card, firmware, and payload.</li>
+        <li>Bring the required safety equipment: eye protection, safety vests, traffic cones, radios, gloves, and life jackets when working near or on water.</li>
+        <li>Confirm a stable link between the controller and the aircraft.</li>
+        <li>Check the weather forecast before the mission and observe conditions again on site.</li>
+        <li>Confirm airspace status, LAANC or other authorization, nearby airports, temporary flight restrictions (TFRs), and site rules.</li>
+        <li>Keep the drone within visual line of sight and clear of people, vehicles, structures, wildlife, and other aircraft.</li>
+        <li>For coastal missions from boats or tight launch sites, practice takeoff, landing, and hand-catching only under controlled conditions with trained personnel.</li>
+        <li>The remote PIC has final authority over whether the mission proceeds.</li>
+    </ul>
+
+    <h3>Compass calibration</h3>
+    <p>Compass calibration is sometimes required for correct navigation, for example after traveling to a new area or when the app prompts for it. Follow the on-screen instructions in the DJI GO 4 app, and calibrate away from metal objects, vehicles, and power lines. The official DJI calibration video in Module 1 shows the procedure.</p>
+    <!-- Video unavailable on YouTube (private or removed), hidden until re-uploaded: https://www.youtube.com/watch?v=jpWw9_WZGHU "Video 3 of 5: Drone calibration and software setup" -->
+
+    <h3 id="regulations">Part 107 operating rules</h3>
+    <p>The summary below is not exhaustive. Always confirm current requirements on the FAA website and follow the policies of your institution and site.</p>
+    <ul>
+        <li>Always yield to crewed aircraft, and never operate in a careless or reckless manner.</li>
+        <li>Keep the drone within visual line of sight. When using first-person view (FPV), a visual observer must keep the drone in unaided sight (no binoculars).</li>
+        <li>A person may act as pilot or visual observer for only one drone operation at a time.</li>
+        <li>Do not fly over people who are not directly participating unless the operation meets the FAA <a href="https://www.faa.gov/uas/commercial_operators/operations_over_people">operations over people</a> requirements.</li>
+        <li>Do not operate from a moving aircraft, or from a moving vehicle except over a sparsely populated area when not carrying property for compensation.</li>
+        <li>Maximum altitude is 400 feet above ground level, or within 400 feet of a structure you are inspecting.</li>
+        <li>Maximum ground speed is 100 mph (87 knots).</li>
+        <li>Minimum visibility from the control station is 3 statute miles.</li>
+        <li>Night and civil-twilight flights require anti-collision lighting visible for at least 3 statute miles and a remote pilot whose knowledge test or training meets the current FAA requirement.</li>
+        <li>Class G airspace does not require air traffic control authorization. Controlled airspace (Class B, C, D, and the surface area of Class E around airports) requires prior authorization, which can often be requested through <a href="https://www.faa.gov/uas/programs_partnerships/data_exchange">LAANC</a>.</li>
+        <li>Operations beyond visual line of sight, and some other operations, require a waiver or additional approval.</li>
+        <li>Report to the FAA within 10 days any operation that causes serious injury, loss of consciousness, or more than $500 of damage to property other than the drone.</li>
+        <li>Carry your remote pilot certificate and registration during operations, and make them available on request.</li>
+    </ul>
+    <p>For airspace awareness, the FAA lists approved <a href="https://www.faa.gov/uas/getting_started/b4ufly">B4UFLY desktop and mobile providers</a>. These tools help with situational awareness but do not replace the remote PIC's responsibility to verify airspace, authorizations, TFRs, weather, and site permission.</p>
+    <div class="callout">
+        <span class="callout-title">Flying outside the United States</span>
+        <p>Regulations differ by country. In Canada, for example, Transport Canada rules for remotely piloted aircraft systems apply, and FAA certification does not substitute for Canadian authorization.</p>
+    </div>
+
+    <div class="materials">
+        <h3>Module materials</h3>
+        <ul>
+            <li><a href="Documents/remote_pilot_study_guide.pdf">FAA Remote Pilot study guide</a><span class="size">PDF, 3.1 MB</span></li>
+        </ul>
+    </div>
+</section>
+
+<section id="module-3">
+    <h2><span class="module-num">Module 3</span>Autonomous mapping</h2>
+    <p>Autonomous mapping improves field efficiency and repeatability by flying a planned route and capturing images with consistent overlap. This module covers how to design missions that balance spatial resolution, coverage, battery limits, wind, sun angle, site geometry, and safety.</p>
+    <figure>
+        <img src="Files/GSPro_flightpath.jpg" alt="DJI GS Pro mission settings and a planned flight path over a forest" loading="lazy">
+        <figcaption>Mission settings and a planned flight path in DJI GS Pro.</figcaption>
+    </figure>
+    <ul>
+        <li>Read the <a href="Documents/CSGIS_Preflight_Planning_Document.pdf">pre-flight planning document</a> and review autopilot and safety procedures.</li>
+        <li>Choose mission parameters that fit the site and the research question.</li>
+        <li>Align flight lines with the long axis of the mapping area when practical, to reduce turns and save battery.</li>
+        <li>Avoid rain, fog, low visibility, and wind beyond aircraft, site, or pilot limits. Coastal conditions change quickly, so make conservative weather decisions.</li>
+    </ul>
+    <!-- Video unavailable on YouTube (private or removed), hidden until re-uploaded: https://www.youtube.com/watch?v=n2iIS3-4z-8 "Video 4 of 5: Creating a drone mapping task in DJI GS Pro" -->
+
+    <h3>Planning decisions and settings</h3>
+    <p>When you draw a flight area and adjust mapping parameters, the key decisions are:</p>
+    <ul>
+        <li>The size of the study area and the number of batteries available.</li>
+        <li>Surface texture: uniform surfaces such as water, sand, and dense canopy need more front and side overlap.</li>
+        <li>The trade-off between coverage and ground sampling distance (image resolution).</li>
+        <li>Camera angle, exposure, and managing sun glint on water.</li>
+        <li>Flight direction relative to site shape, wind, and the takeoff location.</li>
+        <li>Front and side overlap, total flight time, and a battery reserve for a safe return.</li>
+    </ul>
+    <div class="table-wrap">
+        <table class="params">
+            <caption>Starting parameters used in our coastal surveys (adjust for site and aircraft)</caption>
+            <thead>
+                <tr><th scope="col">Parameter</th><th scope="col">100 ft altitude</th><th scope="col">400 ft altitude</th></tr>
+            </thead>
+            <tbody>
+                <tr><th scope="row">Coverage</th><td>Smaller area</td><td>Larger area</td></tr>
+                <tr><th scope="row">Spatial resolution</th><td>Higher (finer detail)</td><td>Lower</td></tr>
+                <tr><th scope="row">Shooting angle</th><td colspan="2">Parallel to the main flight path</td></tr>
+                <tr><th scope="row">Capture mode</th><td colspan="2">Equal distance interval, or hover and capture</td></tr>
+                <tr><th scope="row">Shutter interval</th><td>3 s</td><td>3&ndash;5 s</td></tr>
+                <tr><th scope="row">Front overlap</th><td>65&ndash;75%</td><td>60&ndash;70%</td></tr>
+                <tr><th scope="row">Side overlap</th><td>65&ndash;75%</td><td>60&ndash;70%</td></tr>
+                <tr><th scope="row">Course angle</th><td colspan="2">Parallel to the long side of the area</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3 id="gsd">Estimating ground sampling distance</h3>
+    <p>Ground sampling distance (GSD) is the ground size of one image pixel. It depends on flight altitude and the camera, and it sets the smallest feature you can map. Calculate it before choosing an altitude:</p>
+    <p class="formula">GSD (cm/pixel) = (sensor width &times; flight altitude &times; 100) &divide; (focal length &times; image width)</p>
+    <p>Here sensor width and focal length are in millimeters, altitude is in meters, and image width is in pixels. For the Phantom 4 Pro (13.2 mm sensor width, 8.8 mm focal length, 5,472-pixel image width) flying at 100 m (about 330 ft), GSD is about <strong>2.7 cm per pixel</strong>. Halving the altitude halves the GSD but roughly quadruples the number of images needed to cover the same area.</p>
+
+    <h3>Nadir and oblique imagery</h3>
+    <p>Straight-down (nadir) images are best for 2D orthomosaics. Adding angled (oblique) images improves 3D reconstruction of structures, cliffs, and vegetation.</p>
+    <figure>
+        <img src="Files/nadir-vs-angled.jpg" alt="Comparison of nadir and angled camera orientations" loading="lazy">
+        <figcaption>Nadir (straight-down) versus angled image capture.</figcaption>
+    </figure>
+    <!-- Video unavailable on YouTube (private or removed), hidden until re-uploaded: https://www.youtube.com/watch?v=Op4rjLfgmpA "Video 5 of 5: Unlocking flight zones and using DJI GS Pro for autonomous mapping" -->
+    <div class="callout warn">
+        <span class="callout-title">Software note</span>
+        <p>DJI GO 4 and DJI GS Pro support the Phantom 4 series used in this course. Newer aircraft use different flight and mission-planning apps, so check which software your aircraft supports before a field day.</p>
+    </div>
+
+    <div class="materials">
+        <h3>Module materials</h3>
+        <ul>
+            <li><a href="Documents/CSGIS_Preflight_Planning_Document.pdf">Pre-flight planning document</a><span class="size">PDF, 0.4 MB</span></li>
+        </ul>
+    </div>
+</section>
+
+<section id="module-4">
+    <h2><span class="module-num">Module 4</span>Image processing and GIS</h2>
+    <p>This module covers image quality control, photogrammetric processing, georeferencing, orthomosaic and elevation models, data management, and GIS analysis. Before processing, inspect every image and remove those that are blurry, overexposed, strongly oblique when a nadir mission was intended, or otherwise unsuitable. Careful quality control at this stage reduces error in the final products.</p>
+    <figure>
+        <img src="Files/FlyPath.png" alt="Orthomosaic of a coastal site with image centers and flight lines" loading="lazy" style="max-width:520px;width:100%">
+        <figcaption>Image centers and flight lines over the resulting orthomosaic of a coastal site.</figcaption>
+    </figure>
+
+    <h3>Image stitching</h3>
+    <p>Photogrammetry software uses structure-from-motion and multi-view stereo methods to match features across overlapping images, estimate camera positions, build a point cloud, and produce georeferenced products. Typical outputs include orthomosaics, digital surface models (DSMs), digital terrain models (DTMs), 3D meshes, and point clouds.</p>
+    <p>This course uses Esri ArcGIS Drone2Map as its teaching platform. Other widely used tools include Pix4Dmapper, Agisoft Metashape, and the open-source OpenDroneMap (WebODM). Choose software based on project scale, licensing, computing resources, accuracy needs, and how it fits your GIS workflow.</p>
+    <ul>
+        <li>Read the <a href="Documents/CSGIS_Drone2map_User_Guide.pdf">Drone2Map user guide</a>.</li>
+        <li>Sample data are provided to course participants. Use software licensed through your institution or project.</li>
+    </ul>
+
+    <h3>Georeferencing and ground control</h3>
+    <p>Coastal, wetland, and forest sites can be hard to map because water, vegetation, sand, and other uniform surfaces offer few stable features for image matching. Ground control points (GCPs) improve positional accuracy, and independent check points let you measure it.</p>
+    <ul>
+        <li>On land, use clearly visible targets such as survey panels, bright buckets, or traffic cones.</li>
+        <li>In water or intertidal areas, use light-colored anchored buoys where they are safe and visible in the imagery.</li>
+        <li>Distribute GCPs around the edges and through the interior of the mapping area, and add independent check points when possible.</li>
+        <li>Let the GNSS receiver stabilize, record the coordinate reference system and metadata, and repeat measurements when appropriate.</li>
+    </ul>
+    <p>Accuracy depends on equipment, correction method, satellite geometry, multipath, canopy, terrain, weather, and field procedure. Real-time kinematic (RTK) and post-processed kinematic (PPK) workflows can substantially improve accuracy when configured correctly.</p>
+
+    <h3 id="data-management">Organizing and backing up data</h3>
+    <p>A single mapping day can produce thousands of images. Consistent organization makes processing reproducible and protects data that cannot be collected again.</p>
+    <ul>
+        <li>Use one folder per site and flight date, for example <code>SiteName_YYYY-MM-DD_Flight01</code>, with separate subfolders for raw images, GCP data, processing projects, and final products.</li>
+        <li>Record flight metadata: pilot, aircraft, altitude, overlap, weather, tide stage, and any issues.</li>
+        <li>Copy memory cards on the same day, and keep at least three copies on two kinds of storage, with one stored off site (the 3-2-1 rule).</li>
+        <li>Never edit raw images; keep processed outputs separate and documented.</li>
+        <li>Follow the <a href="https://www.nature.com/articles/sdata201618">FAIR principles</a> (Wilkinson et al., 2016) so data are findable, accessible, interoperable, and reusable.</li>
+    </ul>
+
+    <h3>Orthomosaics, elevation data, and GIS analysis</h3>
+    <p>Study the <a href="Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf">ArcGIS-based image analysis manual</a>. GIS analysis of drone products includes geodatabase management, digitizing, raster analysis, pixel-based and object-based classification, band math, vegetation indices such as the Green Leaf Index and NDVI, and accuracy assessment. ArcGIS and Drone2Map are available from <a href="https://www.esri.com/">Esri</a>, subject to institutional licensing.</p>
+    <p>Drone mapping also produces elevation products such as DSMs and DTMs, which support topographic analysis, vegetation structure, erosion monitoring, 3D visualization, and change detection.</p>
+    <!-- Video unavailable on YouTube (private or removed), hidden until re-uploaded: https://www.youtube.com/watch?v=yaX336s4DjE "High-resolution 3D fly-through of Bodega Marine Laboratory" -->
+
+    <div class="materials">
+        <h3>Module materials</h3>
+        <ul>
+            <li><a href="Documents/CSGIS_Drone2map_User_Guide.pdf">Processing drone imagery into mapping products (Drone2Map guide)</a><span class="size">PDF, 0.4 MB</span></li>
+            <li><a href="Documents/CSGIS_ArcGIS_based_Image_Analyses_Manual.pdf">Data analysis in GIS (ArcGIS image analysis manual)</a><span class="size">PDF, 0.7 MB</span></li>
+        </ul>
+    </div>
+</section>
+
+<section id="module-5">
+    <h2><span class="module-num">Module 5</span>FAA Part 107 self-study</h2>
+    <p>To fly under the FAA Small UAS Rule (Part 107), a first-time remote pilot must pass the Unmanned Aircraft General &ndash; Small (UAG) knowledge test at an FAA-approved testing center. The FAA requires applicants to be at least 16 years old; able to read, speak, write, and understand English; and in a physical and mental condition to fly safely.</p>
+    <p>The test covers airspace classification, operating requirements, flight restrictions, aviation weather, loading and performance, emergency procedures, crew resource management, radio communication, airport operations, night operations, maintenance, and preflight inspection. Certificate holders must complete the free online recurrent training every 24 calendar months to stay current.</p>
+    <p>We recommend reviewing the FAA Remote Pilot study guide, working through practice questions, reading sectional charts, and completing scenario-based planning exercises before scheduling the test. Details are on the FAA page <a href="https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot">Become a certificated remote pilot</a>.</p>
+    <div class="materials">
+        <h3>Module materials</h3>
+        <ul>
+            <li><a href="Documents/remote_pilot_study_guide.pdf">FAA Remote Pilot study guide</a><span class="size">PDF, 3.1 MB</span></li>
+            <li><a href="Documents/CSGIS_Instruction_for_FAA_Part_107_Examination.pdf">Self-study guide for the FAA Part 107 exam</a><span class="size">PDF, 0.7 MB</span></li>
+            <li><a href="Slides/UAV_Traning_Yang.pdf">Course lecture slides</a><span class="size">PDF, 7.4 MB</span></li>
+        </ul>
+    </div>
+    <p>The self-study guide reviews course content and additional test topics, including airspace, weather sources, radio communication, sectional charts, loading and performance, and sample questions.</p>
+</section>
+
+<section id="checklist">
+    <h2>Before-flight checklist</h2>
+    <ul class="checklist">
+        <li>The drone is registered, labeled, Remote ID compliant, and suitable for the planned operation.</li>
+        <li>The remote PIC holds a current certificate, is current on recurrent training, and has any authorization the mission needs.</li>
+        <li>Airspace, LAANC needs, TFRs, local restrictions, landowner permission, and nearby hazards are checked with official FAA resources and approved providers.</li>
+        <li>Flight and mission-planning apps are installed and tested before the field day.</li>
+        <li>Flight batteries, controller, tablet, GNSS receivers, radios, phones, and power banks are charged.</li>
+        <li>Memory cards are formatted and tested, with enough storage, and camera settings match the mission plan.</li>
+        <li>Propellers, motors, landing gear, payloads, cables, and the airframe are inspected.</li>
+        <li>Weather is checked: wind, gusts, precipitation, fog, visibility, temperature, tides where relevant, and expected changes.</li>
+        <li>A safe takeoff and landing area with line of sight to the mapping area is selected.</li>
+        <li>A short test flight confirms aircraft behavior, GPS status, camera triggering, and return-to-home settings.</li>
+        <li>During autonomous mapping, the camera is capturing at the expected interval. If it is not, stop the mission and troubleshoot.</li>
+    </ul>
+</section>
+
+<section id="glossary">
+    <h2>Glossary</h2>
+    <dl class="glossary">
+        <dt>AGL</dt><dd>Above ground level; the height of the aircraft above the terrain directly below it.</dd>
+        <dt>DSM / DTM</dt><dd>Digital surface model (top of vegetation and structures) and digital terrain model (bare ground).</dd>
+        <dt>GCP</dt><dd>Ground control point; a surveyed target visible in the imagery, used to georeference the map.</dd>
+        <dt>GSD</dt><dd>Ground sampling distance; the ground size of one image pixel.</dd>
+        <dt>LAANC</dt><dd>Low Altitude Authorization and Notification Capability; the FAA system for near-real-time airspace authorization.</dd>
+        <dt>Orthomosaic</dt><dd>A single geometrically corrected image stitched from many overlapping photos.</dd>
+        <dt>Overlap (front and side)</dt><dd>The share of each image that overlaps the next image along a flight line (front) and the neighboring line (side).</dd>
+        <dt>Remote ID</dt><dd>A broadcast of a drone's identity and location that the FAA requires for registered drones.</dd>
+        <dt>Remote PIC</dt><dd>Remote pilot in command; the certificated pilot with final authority over the flight.</dd>
+        <dt>RTK / PPK</dt><dd>Real-time kinematic and post-processed kinematic GNSS correction, which improve positional accuracy.</dd>
+        <dt>TFR</dt><dd>Temporary flight restriction; short-term airspace limits for events, emergencies, or wildfires.</dd>
+        <dt>VLOS</dt><dd>Visual line of sight; keeping the aircraft visible to the pilot or visual observer without aids.</dd>
+    </dl>
+</section>
+
+<section id="resources" class="resources">
+    <h2>Resources</h2>
+    <h3>FAA</h3>
+    <ul>
+        <li><a href="https://www.faa.gov/uas/">FAA UAS (drones) home page</a></li>
+        <li><a href="https://www.faa.gov/uas/getting_started/register_drone">Drone registration</a></li>
+        <li><a href="https://www.faa.gov/uas/getting_started/remote_id">Remote ID</a></li>
+        <li><a href="https://www.faa.gov/uas/getting_started/b4ufly">B4UFLY</a></li>
+        <li><a href="https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot">Become a certificated remote pilot</a></li>
+    </ul>
+    <h3>Software and training</h3>
+    <ul>
+        <li><a href="https://www.esri.com/en-us/arcgis/products/drone2map/overview">ArcGIS Drone2Map</a></li>
+        <li><a href="https://www.esri.com/training/">Esri training</a>, including courses on getting started with Drone2Map and creating 2D and 3D products</li>
+        <li><a href="https://www.opendronemap.org/">OpenDroneMap</a> (open source)</li>
+    </ul>
+    <h3>Related projects</h3>
+    <ul>
+        <li><a href="https://www.citizensciencegis.org/nsfsmithsoniandrones">Citizen Science GIS NSF drone mapping project</a></li>
+        <li><a href="https://geofly.io/UAV_seagrass.html">GeoFly Lab coastal seagrass mapping</a></li>
+    </ul>
+</section>
+
+<section id="cite">
+    <h2>Cite this course</h2>
+    <p>The course builds on the training program described in:</p>
+    <p class="cite">Yang, B., Hawthorne, T. L., Hessing-Lewis, M., Duffy, E. J., Reshitnyk, L. Y., Feinman, M., &amp; Searson, H. (2020). Developing an introductory UAV/drone mapping training program for seagrass monitoring and research. <em>Drones</em>, 4(4), 70. <a href="https://doi.org/10.3390/drones4040070">https://doi.org/10.3390/drones4040070</a></p>
+    <p>Questions about the course? <a href="https://geofly.io/contact.html">Contact GeoFly Lab</a>.</p>
+</section>
+
+        </div>
+    </div>
+</div>
+</main>
+<footer class="site-footer">
+    <div class="wrap">
+        <div>
+            <div class="footer-name">GeoFly Lab</div>
+            <p>GIS, remote sensing, and UAV-based mapping for environmental research and education.</p>
+        </div>
+        <div>
+            <h2>Visit</h2>
+            <p>Department of Environmental Studies<br>University of California, Santa Cruz<br>1156 High Street<br>Santa Cruz, CA 95064</p>
+        </div>
+        <div>
+            <h2>Explore</h2>
+            <ul>
+                <li><a href="https://geofly.io/project.html">Research</a></li>
+                <li><a href="https://geofly.io/publication.html">Publications</a></li>
+                <li><a href="https://geofly.io/facility.html">Facilities</a></li>
+                <li><a href="https://geofly.io/post.html">News</a></li>
+                <li><a href="https://geofly.io/gallery.html">Photo gallery</a></li>
+                <li><a href="https://geofly.io/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="wrap">&copy; 2026 GeoFly Lab, University of California, Santa Cruz</div>
+    </div>
+</footer>
+<script>
+(function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+})();
+</script>
+</body>
+</html>
