@@ -6,9 +6,9 @@ Maintained by Bo Yang and Henri Brillon
 
 ### Course Description
 
-This open-access course introduces the complete drone mapping workflow for coastal management, habitat monitoring, and applied geospatial research. Participants learn how to plan safe missions, collect field imagery, document ground control, process imagery into mapping products, and analyze the resulting data in a geographic information system (GIS).
+This open-access course introduces the complete drone mapping workflow for GIS, environmental monitoring, and applied geospatial research. Participants learn how to plan safe missions, collect field imagery, document ground control, process imagery into mapping products, and analyze the resulting data in a geographic information system (GIS).
 
-The course emphasizes practical field workflows used by GeoFly Lab and collaborators in coastal, ecological, wildfire, and community resilience projects. Drones, also called uncrewed aircraft systems (UAS), are useful because they provide high spatial resolution, flexible timing, and repeatable data collection across sites. These advantages make drone mapping especially valuable for coastal seagrass monitoring, fire behavior and post-burn assessment, defensible space evaluation, and other environmental applications.
+The course emphasizes practical field workflows used by GeoFly Lab and collaborators across a wide range of research and applied projects. Drones, also called uncrewed aircraft systems (UAS), are useful because they provide high spatial resolution, flexible timing, and repeatable data collection. These advantages make drone mapping valuable for environmental monitoring, land-cover and vegetation mapping, natural hazard and post-disaster assessment, infrastructure and site surveys, and many other GIS applications.
 
 The training is organized into five instructional modules and a self-study section for FAA Part 107 preparation. Regulatory information changes over time, so participants should always confirm current requirements with the FAA before flying.
 
@@ -90,7 +90,7 @@ As a helpful starting point, this safety checklist includes some elements common
 * Confirm airspace status, LAANC or other authorization needs, nearby airports, temporary flight restrictions (TFRs), and local site restrictions.
 * Maintain visual line of sight and avoid people, vehicles, structures, wildlife, and other aircraft.
 * Do not fly directly over non-participating people unless the operation qualifies under the applicable FAA rules.
-* For coastal missions involving boats or constrained launch sites, practice takeoff, landing, and hand-catching procedures only under controlled conditions with trained personnel.
+* For missions from boats, vehicles, or constrained launch sites, practice takeoff, landing, and hand-catching procedures only under controlled conditions with trained personnel.
 * The remote PIC has final authority over whether the mission proceeds.
 
 ### Drone Calibration
@@ -136,7 +136,7 @@ Autonomous mapping improves field efficiency and repeatability by flying a plann
 * Read the [CSGIS Preflight Planning Document](Documents/CSGIS_Preflight_Planning_Document.pdf) and review autopilot and safety procedures.
 * Plan autonomous flights using mission parameters appropriate for the site and research objective.
 * Align flight lines with the long axis of the mapping area when practical to reduce turns and improve battery efficiency.
-* Avoid rain, fog, low visibility, and wind conditions that exceed aircraft, site, or pilot limits. Coastal missions require conservative weather decisions because wind and visibility can change quickly.
+* Avoid rain, fog, low visibility, and wind conditions that exceed aircraft, site, or pilot limits. Make conservative weather decisions, because wind and visibility can change quickly, especially in open, mountainous, or waterfront areas.
 
 [(4/5) Create drone mapping task using DJI GS Pro](https://www.youtube.com/embed/n2iIS3-4z-8)
 
@@ -184,9 +184,9 @@ Note: Sample data are provided in the course folder. Participants should use lic
 
 **Geo-referencing**
 
-Coastal, wetland, and forest mapping can be difficult because water, vegetation, sand, and other homogeneous surfaces may provide fewer stable image-matching features. Ground control points (GCPs) and independent check points help improve and evaluate positional accuracy.
+Some sites can be difficult to map because water, dense vegetation, sand, snow, and other homogeneous surfaces may provide fewer stable image-matching features. Ground control points (GCPs) and independent check points help improve and evaluate positional accuracy.
 
-For land-based GCPs, use clearly visible targets such as survey panels, bright buckets, or traffic cones. For water or intertidal mapping, light-colored anchored buoys can be used when they are safe and visible in the imagery. A typical site should include well-distributed GCPs around the edges and interior of the mapping area, plus independent check points when possible.
+For land-based GCPs, use clearly visible targets such as survey panels, bright buckets, or traffic cones. Where targets cannot be placed on the ground, such as over water, light-colored anchored floats can be used when they are safe and visible in the imagery. A typical site should include well-distributed GCPs around the edges and interior of the mapping area, plus independent check points when possible.
 
 When collecting GCPs, allow the GNSS receiver to stabilize, document the coordinate reference system, record metadata, and collect repeated measurements when appropriate. Accuracy will depend on equipment, correction method, satellite geometry, multipath, canopy, terrain, weather, and field procedures. RTK or PPK workflows can substantially improve positional accuracy when configured correctly.
 
@@ -234,7 +234,7 @@ The self-study document reviews course content and additional topics for the kno
 * Charge flight batteries, controller batteries, tablets, GNSS receivers, radios, phones, and backup power banks.
 * Format and test memory cards, confirm sufficient storage, and verify that image capture settings match the mission plan.
 * Inspect propellers, motors, landing gear, payloads, cables, and aircraft body condition.
-* Check weather, including wind speed, gusts, precipitation, fog, visibility, temperature, tides where relevant, and expected changes during the mission window.
+* Check weather, including wind speed, gusts, precipitation, fog, visibility, temperature, and expected changes during the mission window.
 * Select a safe takeoff and landing area with line of sight to the mapping area.
 * Conduct a short test flight when appropriate to confirm aircraft behavior, GPS status, camera triggering, and return-to-home settings.
 * During autonomous mapping, confirm that the camera is capturing images at the expected interval. If the shutter is not triggering, stop the mission and troubleshoot before continuing.

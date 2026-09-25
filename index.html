@@ -72,8 +72,8 @@
 
 <section id="overview">
     <h2 class="first">Overview</h2>
-    <p>This open-access course introduces the drone mapping workflow used in coastal management, habitat monitoring, and applied geospatial research. Participants learn how to plan safe missions, collect field imagery, document ground control, process imagery into mapping products, and analyze the results in a geographic information system (GIS).</p>
-    <p>The course draws on field methods used by GeoFly Lab and its collaborators in coastal, ecological, wildfire, and community resilience projects. Drones, also called uncrewed aircraft systems (UAS), provide high spatial resolution, flexible timing, and repeatable data collection across sites, which makes them valuable for seagrass monitoring, fire behavior and post-burn assessment, defensible-space evaluation, and many other environmental applications.</p>
+    <p>This open-access course introduces a complete drone mapping workflow for GIS, environmental monitoring, and applied geospatial research. Participants learn how to plan safe missions, collect field imagery, document ground control, process imagery into mapping products, and analyze the results in a geographic information system (GIS).</p>
+    <p>The course draws on field methods used by GeoFly Lab and its collaborators across a wide range of research and applied projects. Drones, also called uncrewed aircraft systems (UAS), provide high spatial resolution, flexible timing, and repeatable data collection, which makes them valuable for environmental monitoring, land-cover and vegetation mapping, natural hazard and post-disaster assessment, infrastructure and site surveys, and many other GIS applications.</p>
 
     <dl class="facts">
         <div><dt>Format</dt><dd>Self-paced, open access, free</dd></div>
@@ -179,7 +179,7 @@
         <li>Check the weather forecast before the mission and observe conditions again on site.</li>
         <li>Confirm airspace status, LAANC or other authorization, nearby airports, temporary flight restrictions (TFRs), and site rules.</li>
         <li>Keep the drone within visual line of sight and clear of people, vehicles, structures, wildlife, and other aircraft.</li>
-        <li>For coastal missions from boats or tight launch sites, practice takeoff, landing, and hand-catching only under controlled conditions with trained personnel.</li>
+        <li>For missions from boats, vehicles, or tight launch sites, practice takeoff, landing, and hand-catching only under controlled conditions with trained personnel.</li>
         <li>The remote PIC has final authority over whether the mission proceeds.</li>
     </ul>
 
@@ -229,7 +229,7 @@
         <li>Read the <a href="Documents/CSGIS_Preflight_Planning_Document.pdf">pre-flight planning document</a> and review autopilot and safety procedures.</li>
         <li>Choose mission parameters that fit the site and the research question.</li>
         <li>Align flight lines with the long axis of the mapping area when practical, to reduce turns and save battery.</li>
-        <li>Avoid rain, fog, low visibility, and wind beyond aircraft, site, or pilot limits. Coastal conditions change quickly, so make conservative weather decisions.</li>
+        <li>Avoid rain, fog, low visibility, and wind beyond aircraft, site, or pilot limits. Conditions can change quickly, especially in open, mountainous, or waterfront areas, so make conservative weather decisions.</li>
     </ul>
     <!-- Video unavailable on YouTube (private or removed), hidden until re-uploaded: https://www.youtube.com/watch?v=n2iIS3-4z-8 "Video 4 of 5: Creating a drone mapping task in DJI GS Pro" -->
 
@@ -245,7 +245,7 @@
     </ul>
     <div class="table-wrap">
         <table class="params">
-            <caption>Starting parameters used in our coastal surveys (adjust for site and aircraft)</caption>
+            <caption>Starting parameters used in our field surveys (adjust for site and aircraft)</caption>
             <thead>
                 <tr><th scope="col">Parameter</th><th scope="col">100 ft altitude</th><th scope="col">400 ft altitude</th></tr>
             </thead>
@@ -291,8 +291,8 @@
     <h2><span class="module-num">Module 4</span>Image processing and GIS</h2>
     <p>This module covers image quality control, photogrammetric processing, georeferencing, orthomosaic and elevation models, data management, and GIS analysis. Before processing, inspect every image and remove those that are blurry, overexposed, strongly oblique when a nadir mission was intended, or otherwise unsuitable. Careful quality control at this stage reduces error in the final products.</p>
     <figure>
-        <img src="Files/FlyPath.png" alt="Orthomosaic of a coastal site with image centers and flight lines" loading="lazy" style="max-width:520px;width:100%">
-        <figcaption>Image centers and flight lines over the resulting orthomosaic of a coastal site.</figcaption>
+        <img src="Files/FlyPath.png" alt="Orthomosaic of a survey site with image centers and flight lines" loading="lazy" style="max-width:520px;width:100%">
+        <figcaption>Image centers and flight lines over the resulting orthomosaic of a survey site.</figcaption>
     </figure>
 
     <h3>Image stitching</h3>
@@ -304,10 +304,10 @@
     </ul>
 
     <h3>Georeferencing and ground control</h3>
-    <p>Coastal, wetland, and forest sites can be hard to map because water, vegetation, sand, and other uniform surfaces offer few stable features for image matching. Ground control points (GCPs) improve positional accuracy, and independent check points let you measure it.</p>
+    <p>Some sites can be hard to map because water, dense vegetation, sand, snow, and other uniform surfaces offer few stable features for image matching. Ground control points (GCPs) improve positional accuracy, and independent check points let you measure it.</p>
     <ul>
         <li>On land, use clearly visible targets such as survey panels, bright buckets, or traffic cones.</li>
-        <li>In water or intertidal areas, use light-colored anchored buoys where they are safe and visible in the imagery.</li>
+        <li>Where targets cannot be placed on the ground, such as over water, use light-colored anchored floats where they are safe and visible in the imagery.</li>
         <li>Distribute GCPs around the edges and through the interior of the mapping area, and add independent check points when possible.</li>
         <li>Let the GNSS receiver stabilize, record the coordinate reference system and metadata, and repeat measurements when appropriate.</li>
     </ul>
@@ -317,7 +317,7 @@
     <p>A single mapping day can produce thousands of images. Consistent organization makes processing reproducible and protects data that cannot be collected again.</p>
     <ul>
         <li>Use one folder per site and flight date, for example <code>SiteName_YYYY-MM-DD_Flight01</code>, with separate subfolders for raw images, GCP data, processing projects, and final products.</li>
-        <li>Record flight metadata: pilot, aircraft, altitude, overlap, weather, tide stage, and any issues.</li>
+        <li>Record flight metadata: pilot, aircraft, altitude, overlap, weather, site conditions, and any issues.</li>
         <li>Copy memory cards on the same day, and keep at least three copies on two kinds of storage, with one stored off site (the 3-2-1 rule).</li>
         <li>Never edit raw images; keep processed outputs separate and documented.</li>
         <li>Follow the <a href="https://www.nature.com/articles/sdata201618">FAIR principles</a> (Wilkinson et al., 2016) so data are findable, accessible, interoperable, and reusable.</li>
@@ -367,7 +367,7 @@
         <li>Flight batteries, controller, tablet, GNSS receivers, radios, phones, and power banks are charged.</li>
         <li>Memory cards are formatted and tested, with enough storage, and camera settings match the mission plan.</li>
         <li>Propellers, motors, landing gear, payloads, cables, and the airframe are inspected.</li>
-        <li>Weather is checked: wind, gusts, precipitation, fog, visibility, temperature, tides where relevant, and expected changes.</li>
+        <li>Weather is checked: wind, gusts, precipitation, fog, visibility, temperature, and expected changes.</li>
         <li>A safe takeoff and landing area with line of sight to the mapping area is selected.</li>
         <li>A short test flight confirms aircraft behavior, GPS status, camera triggering, and return-to-home settings.</li>
         <li>During autonomous mapping, the camera is capturing at the expected interval. If it is not, stop the mission and troubleshoot.</li>
@@ -411,7 +411,7 @@
     <h3>Related projects</h3>
     <ul>
         <li><a href="https://www.citizensciencegis.org/nsfsmithsoniandrones">Citizen Science GIS NSF drone mapping project</a></li>
-        <li><a href="https://geofly.io/UAV_seagrass.html">GeoFly Lab coastal seagrass mapping</a></li>
+        <li><a href="https://geofly.io/project.html">GeoFly Lab research projects</a></li>
     </ul>
 </section>
 
