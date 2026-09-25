@@ -308,6 +308,67 @@ body { overflow-wrap: break-word; }
 }
 
 /* =====================================================================
+   Color theme: navy header and footer, soft blue bands
+   ===================================================================== */
+:root {
+    --band: #eaf1f7;
+    --band-2: #f4f7fa;
+    --footer-bg: #002a4d;
+}
+body { background: #fff; }
+
+/* Header: navy bar with a thin gold line */
+.site-header { background: var(--navy); border-top: 4px solid var(--gold); border-bottom: 0; }
+.brand-name { color: #fff; }
+.brand-sub { color: #bcd0e3; }
+.site-nav a { color: #e3ecf5; }
+.site-nav a:hover { color: #fff; }
+.site-nav a[aria-current="page"] { color: #fff; border-bottom-color: var(--gold); }
+.nav-toggle { color: #fff; border-color: rgba(255, 255, 255, .45); }
+@media (max-width: 820px) {
+    .site-nav ul { border-top-color: rgba(255, 255, 255, .2); }
+}
+
+/* Full-width tinted bands behind page titles and the home introduction */
+.page-head, .intro {
+    background: var(--band);
+    box-shadow: 0 0 0 100vmax var(--band);
+    clip-path: inset(0 -100vmax);
+    border-bottom: 0;
+}
+.page-head { padding: 36px 0 28px; margin-bottom: 36px; }
+.intro { padding: 44px 0 44px; margin-bottom: 20px; }
+.page-head .lede, .intro .tagline { color: #4d5b69; }
+.crumbs a { color: #4d5b69; }
+
+/* Home: latest news on a light band */
+.section.news-band {
+    background: var(--band-2);
+    box-shadow: 0 0 0 100vmax var(--band-2);
+    clip-path: inset(0 -100vmax);
+    padding: 4px 0 26px;
+    margin: 36px 0 0;
+}
+.section > h2 { border-bottom: 2px solid var(--gold); display: inline-block; padding-right: 8px; }
+.note { border-left-color: var(--gold); background: #fff8dc; }
+.research-area h2 a, .area h3 a, .news-item h3 a { color: var(--navy); }
+
+/* Buttons */
+.button-gold { background: var(--gold); color: var(--navy-dark) !important; }
+.button-gold:hover { background: #ffd83d; color: var(--navy-dark) !important; }
+.note .button { margin-top: 4px; }
+
+/* Footer: navy */
+.site-footer { background: var(--footer-bg); border-top: 0; color: #bcd0e3; margin-top: 24px; }
+.site-footer h2 { color: #fff; }
+.site-footer .footer-name { color: #fff; }
+.site-footer a { color: #e3ecf5; }
+.site-footer a:hover { color: #fff; }
+.site-footer .button { margin-top: 8px; text-decoration: none; }
+.copyright { border-top-color: rgba(255, 255, 255, .15); color: #9fb6cc; }
+main { padding-bottom: 40px; }
+
+/* =====================================================================
    Drone Mapping Course additions
    ===================================================================== */
 .course { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 48px; align-items: start; }
