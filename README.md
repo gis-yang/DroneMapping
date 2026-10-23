@@ -2,7 +2,7 @@
 
 Maintained by Bo Yang and Henri Brillon
 
-**View the course online: https://geofly.io/DroneMapping/**
+**View the course online: https://geofly.ai/DroneMapping/**
 
 ### Course Description
 
